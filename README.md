@@ -31,6 +31,36 @@ kama-webserver/
 └── README.md # 项目说明文件
 ```
 
+## 核心架构
+● 采用Reactor模式，基于事件驱动的网络编程模型<br>
+● 使用多线程设计，包含主线程（EventLoop）和工作线程池<br>
+● 基于epoll实现的高效事件处理机制<br>
+
+## 主要组件：
+● 网络层：<br>
+  &emsp;○ TcpServer：服务器核心类，管理连接和事件循环<br>
+  &emsp; ○ TcpConnection：TCP连接管理<br>
+  &emsp;○ Acceptor：负责接受新连接<br>
+  &emsp;○ Buffer：网络数据缓冲区<br>
+  &emsp;○ Channel：事件通道，封装了文件描述符和事件处理<br>
+● 事件循环：<br>
+  &emsp;○ EventLoop：事件循环核心类<br>
+  &emsp;○ EventLoopThread：事件循环线程<br>
+  &emsp;○ EventLoopThreadPool：事件循环线程池<br>
+  &emsp;○ Poller/EPollPoller：事件轮询器<br>
+● 日志系统：<br>
+  &emsp;○ Logger：日志记录器<br>
+  &emsp;○ AsyncLogging：异步日志系统<br>
+  &emsp;○ LogStream：日志流<br>
+  &emsp;○ LogFile：日志文件管理<br>
+● 内存管理：<br>
+  &emsp;○ MemoryPool：内存池实现<br>
+  &emsp;○ 支持多种大小的内存块分配（8-512字节）<br>
+  &emsp;○ 线程安全的内存分配和释放<br>
+● 缓存系统：<br>
+  &emsp;○ LFU：最近最少使用缓存策略<br>
+  &emsp;○ ConsistenHash：一致性哈希实现<br>
+
 ## 前置工具准备
 
 安装基本工具
