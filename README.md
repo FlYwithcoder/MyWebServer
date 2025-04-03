@@ -34,7 +34,7 @@ MyWebserver/
 ## 主要组件：
 ● 网络层：<br>
   &emsp;○ TcpServer：服务器核心类，管理连接和事件循环<br>
-  &emsp; ○ TcpConnection：TCP连接管理<br>
+  &emsp;○ TcpConnection：TCP连接管理<br>
   &emsp;○ Acceptor：负责接受新连接<br>
   &emsp;○ Buffer：网络数据缓冲区<br>
   &emsp;○ Channel：事件通道，封装了文件描述符和事件处理<br>
