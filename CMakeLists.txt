@@ -8,7 +8,12 @@ set (CMAKE_CXX_STANDARD 11)
 set (CMAKE_CXX_STANDARD_REQUIRED True)
 
 #设置头文件目录，供所有子项目使用
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/include/eventloop)
+include_directories(${CMAKE_SOURCE_DIR}/include/log)
+include_directories(${CMAKE_SOURCE_DIR}/include/memory)
+include_directories(${CMAKE_SOURCE_DIR}/include/net)
+include_directories(${CMAKE_SOURCE_DIR}/include/thread)
+include_directories(${CMAKE_SOURCE_DIR}/include/utils)
 
 # 设置输出目录
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
@@ -21,5 +26,4 @@ set(LIBS
 
 #添加子目录使用
 add_subdirectory(src)
-add_subdirectory(memory)
-add_subdirectory(log)
+

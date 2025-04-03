@@ -1,0 +1,220 @@
+2025/04/03 20:49:778904 DEBUG EventLoop createdtruein thread57503 - EventLoop.cc:53
+2025/04/03 20:49:778979 INFO  func =>fd5events=3index=-1 - EPollPoller.cc:66
+2025/04/03 20:49:779584 DEBUG EventLoop createdtruein thread57505 - EventLoop.cc:53
+2025/04/03 20:49:779610 INFO  func =>fd8events=3index=-1 - EPollPoller.cc:66
+2025/04/03 20:49:779638 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/03 20:49:779648 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:49:779853 DEBUG EventLoop createdtruein thread57506 - EventLoop.cc:53
+2025/04/03 20:49:779861 INFO  func =>fd10events=3index=-1 - EPollPoller.cc:66
+2025/04/03 20:49:779883 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/03 20:49:779888 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:49:780022 DEBUG EventLoop createdtruein thread57507 - EventLoop.cc:53
+2025/04/03 20:49:780031 INFO  func =>fd12events=3index=-1 - EPollPoller.cc:66
+2025/04/03 20:49:780074 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/03 20:49:780082 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:49:791252 INFO  func =>fd6events=3index=-1 - EPollPoller.cc:66
+2025/04/03 20:49:791370 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/03 20:49:791379 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:49:785912 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:49:785937 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:49:786014 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:49:786014 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:49:785930 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:49:786350 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:49:792863 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:49:792902 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:50:794362 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:794402 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:796344 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:796349 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:796380 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:796382 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:803297 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:803340 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:50:797687 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:797726 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:804609 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:804627 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:806583 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:806674 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:812624 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:812666 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:50:807466 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:807533 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:815091 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:815113 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:815105 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:815133 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:822428 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:822487 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:50:814912 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:814945 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:823456 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:823494 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:50:825518 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:825525 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:825557 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:825537 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:732839 INFO  events happend1 - EPollPoller.cc:40
+2025/04/03 20:50:732912 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/03 20:50:732992 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/03 20:50:733002 INFO  TcpServer::newConnection [EchoServer]- new connection [EchoServer-127.0.0.1:8080#1]from %s127.0.0.1:54526 - TcpServer.cc:75
+2025/04/03 20:50:733051 INFO  TcpConnection::ctor:[EchoServer-127.0.0.1:8080#1]at fd=13 - TcpConnection.cc:52
+2025/04/03 20:50:733124 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/03 20:50:733158 INFO  Connection UP :127.0.0.1:54526 - main.cc:39
+2025/04/03 20:50:733180 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/03 20:50:821408 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:821461 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:825982 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:826006 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:833525 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:833559 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:327729 INFO  events happend1 - EPollPoller.cc:40
+2025/04/03 20:50:327773 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/03 20:50:327884 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/03 20:50:827515 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:827554 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:835452 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:835475 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:840455 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:50:840469 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:50:028703 INFO  events happend1 - EPollPoller.cc:40
+2025/04/03 20:50:028737 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/03 20:50:028793 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/03 20:50:307230 INFO  events happend1 - EPollPoller.cc:40
+2025/04/03 20:50:307259 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/03 20:50:307278 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
+2025/04/03 20:50:307286 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
+2025/04/03 20:50:307297 INFO  Connection DOWN :127.0.0.1:54526 - main.cc:43
+2025/04/03 20:50:307349 INFO  TcpServer::removeConnectionInLoop [EchoServer] - connection %sEchoServer-127.0.0.1:8080#1 - TcpServer.cc:114
+2025/04/03 20:50:307421 INFO  removeChannel fd=13 - EPollPoller.cc:102
+2025/04/03 20:50:307428 INFO  TcpConnection::dtor[EchoServer-127.0.0.1:8080#1]at fd=13state=0 - TcpConnection.cc:58
+2025/04/03 20:50:307484 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:51:830658 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:830696 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:840590 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:840606 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:845841 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:845859 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:317814 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:317859 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:51:840407 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:840445 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:850824 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:850863 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:854329 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:854372 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:324679 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:324717 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:51:850696 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:850735 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:859697 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:859743 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:864662 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:864694 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:335262 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:335298 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:51:857536 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:857574 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:868118 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:868121 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:868169 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:868145 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:342369 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:342411 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:51:857784 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:857823 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:878343 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:878334 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:878416 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:878416 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:352575 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:352612 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:51:868060 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:868100 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:888789 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:888789 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:888844 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:888857 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:51:361519 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:51:361559 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:52:874453 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:874485 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:895277 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:895316 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:899307 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:899324 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:364754 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:364793 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:52:884936 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:884967 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:905443 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:905477 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:905476 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:905514 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:368463 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:368502 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:52:892392 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:892426 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:914279 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:914312 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:915726 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:915742 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:378726 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:378769 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:52:902747 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:902785 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:919867 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:919882 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:919927 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:919912 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:388925 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:388964 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:52:913276 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:913327 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:930147 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:930147 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:930232 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:930210 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:399212 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:399251 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:52:914512 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:914549 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:932468 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:932520 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:938884 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:938925 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:52:408709 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:52:408762 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:53:924428 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:924473 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:937287 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:937330 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:949143 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:949179 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:415824 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:415858 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:53:934749 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:934790 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:944803 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:944841 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:959253 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:959289 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:426161 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:426198 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:53:945265 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:945303 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:951278 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:951296 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:984418 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:984572 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:428662 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:428696 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/03 20:53:950358 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:950425 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:957303 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:957340 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:994947 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:994984 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/03 20:53:429213 DEBUG timeout! - EPollPoller.cc:49
+2025/04/03 20:53:429267 INFO  fd total count:2 - EPollPoller.cc:32
