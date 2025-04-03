@@ -112,23 +112,3 @@ cd bin
 
 ---
 
-## 功能模块划分
-
-### 网络模块
-
-- **事件轮询与分发模块**：`EventLoop.*`、`Channel.*`、`Poller.*`、`EPollPoller.*`负责事件轮询检测，并实现事件分发处理。`EventLoop`对`Poller`进行轮询，`Poller`底层由`EPollPoller`实现。
-- **线程与事件绑定模块**：`Thread.*`、`EventLoopThread.*`、`EventLoopThreadPool.*`绑定线程与事件循环，完成`one loop per thread`模型。
-- **网络连接模块**：`TcpServer.*`、`TcpConnection.*`、`Acceptor.*`、`Socket.*`实现`mainloop`对网络连接的响应，并分发到各`subloop`。
-- **缓冲区模块**：`Buffer.*`提供自动扩容缓冲区，保证数据有序到达。
-
-### 日志模块
-
-- 日志模块负责记录服务器运行过程中的重要信息，帮助开发者进行调试和性能分析。日志文件存放位于 `bin/logs/` 目录下。
-
-### 内存管理
-
-- 内存管理模块负责动态内存的分配和释放，确保服务器在高负载情况下的稳定性和性能。
-
-### LFU缓存模块
-- 用于在缓存容量不足时决定删除哪些内容以释放空间。LFU 的核心思想是优先移除使用频率最低的缓存项。
-
