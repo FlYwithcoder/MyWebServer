@@ -13,21 +13,16 @@
 ## 目录结构
 
 ```shell
-kama-webserver/
+MyWebserver/
 ├── img/ #存放图片
 ├── include/ #所有头文件.h位置
 ├── lib/ #存放共享库
 |
-├── log/ # 日志管理模块
-│ ├── log.cc # 日志实现
-├── memory/ # 内存管理模块
-│ ├── memory.cc # 内存管理实现
 ├── src/ # 源代码目录
 │ ├── main.cpp # 主程序入口
 │ ├── ... # 其他源文件 
 |
 ├── CMakeLists.txt # CMake 构建文件
-├── LICENSE # 许可证文件
 └── README.md # 项目说明文件
 ```
 
@@ -73,8 +68,8 @@ sudo apt-get install -y wget cmake build-essential unzip git
 ## 编译指令
 1. 克隆项目：
 ```bash
-   git clone https://github.com/youngyangyang04/kama-webserver.git
-   cd kama-webserver
+   git clone git@github.com:FlYwithcoder/MyWebServer.git
+   cd MyWebserver
 ```
 
 2. 创建构建目录并编译：
@@ -116,58 +111,6 @@ cd bin
 **注意**：测试的结果还是采用回声服务器测试,注重架构的实现。
 
 ---
-
-### 日志核心内容简单分析：
-
-首先日志结果如图：
-![img](./img/3.png)
-
-1. 文件描述符统计
-
-```bash
-2025/01/24 17:40:240290 INFO  fd total count:1 - EPollPoller.cc:32
-```
-
-- 说明： EPoll 当前管理的文件描述符总数为 1（可能是一个连接的套接字）。
-
-2. 事件触发
-
-```bash
-2025/01/24 17:40:454794 INFO  %d events happend1 - EPollPoller.cc:40
-2025/01/24 17:40:454852 INFO  channel handleEvent revents:1 - Channel.cc:73
-```
-
-- 一个事件发生（events happend1），可能是客户端套接字的关闭事件。
-- revents:1 表示触发的事件类型为 EPOLLIN，即对端关闭了连接或者发送了数据。
-
-3. 连接关闭处理
-
-```bash
-2025/01/24 17:40:454890 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
-2025/01/24 17:40:454907 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
-2025/01/24 17:40:454929 INFO  Connection DOWN :127.0.0.1:47376 - main.cc:44
-```
-- TcpConnection::handleClose: 文件描述符 fd=13 的连接关闭，当前状态 state=2（可能表示“已建立连接”状态）。
-- Connection DOWN: 与客户端 127.0.0.1:47376 的连接断开。
-- events=0: 表示该文件描述符不再监听任何事件。
-
-4. 从服务器中移除连接
-
-```bash 
-2025/01/24 17:40:455009 INFO  TcpServer::removeConnectionInLoop [EchoServer] - connection %sEchoServer-127.0.0.1:8080#1 - TcpServer.cc:114
-2025/01/24 17:40:455138 INFO  removeChannel fd=13 - EPollPoller.cc:102
-```
-- TcpServer::removeConnectionInLoop: 服务器内部移除与连接 127.0.0.1:47376 的绑定。
-- removeChannel: 从 EPoll 的事件监听列表中移除了文件描述符 fd=13。
-
-5. 资源清理
-
-```bash 
-2025/01/24 17:40:455155 INFO  TcpConnection::dtor[EchoServer-127.0.0.1:8080#1]at fd=13state=0 - TcpConnection.cc:58
-```
-- 调用 TcpConnection 析构函数（dtor），释放连接的相关资源。
-- 状态 state=0 表示连接已完全关闭，文件描述符 fd=13 被销毁。
-
 
 ## 功能模块划分
 
