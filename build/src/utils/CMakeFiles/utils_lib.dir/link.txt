@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -shared -Wl,-soname,libutils_lib.so -o ../../../lib/libutils_lib.so CMakeFiles/utils_lib.dir/Timestamp.cc.o 
