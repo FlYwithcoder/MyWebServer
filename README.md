@@ -75,10 +75,8 @@ sudo apt-get install -y wget cmake build-essential unzip git
 2. 创建构建目录并编译：
 
 ```bash
-   mkdir build &&
-   cd build &&
-   cmake .. &&
-   make -j ${nproc}
+  cd ./scripts/
+sh build.sh
 ```
 
 3. 在构建完成后，先进入到bin文件
