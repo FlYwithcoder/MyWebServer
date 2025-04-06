@@ -1,0 +1,2198 @@
+2025/04/06 11:33:814581 DEBUG EventLoop createdtruein thread178727 - EventLoop.cc:53
+2025/04/06 11:33:814631 INFO  func =>fd5events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:33:814911 DEBUG EventLoop createdtruein thread178729 - EventLoop.cc:53
+2025/04/06 11:33:814922 INFO  func =>fd8events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:33:814937 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 11:33:814941 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:33:815149 DEBUG EventLoop createdtruein thread178730 - EventLoop.cc:53
+2025/04/06 11:33:815161 INFO  func =>fd10events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:33:815185 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 11:33:815191 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:33:815339 DEBUG EventLoop createdtruein thread178731 - EventLoop.cc:53
+2025/04/06 11:33:815351 INFO  func =>fd12events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:33:815377 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 11:33:815385 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:33:815430 INFO  func =>fd6events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:33:815485 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 11:33:815491 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:33:091220 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:33:091269 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:33:091344 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:33:091354 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#1]from %s127.0.0.1:41214 - TcpServer.cc:75
+2025/04/06 11:33:091414 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#1]at fd=13 - TcpConnection.cc:52
+2025/04/06 11:33:091487 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:33:091506 INFO  HTTP Connection UP :127.0.0.1:41214 - main.cc:107
+2025/04/06 11:33:091527 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:33:091532 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:33:091537 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:33:091675 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:33:091903 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:33:091915 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:33:091924 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
+2025/04/06 11:33:091929 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:33:091935 INFO  HTTP Connection DOWN :127.0.0.1:41214 - main.cc:109
+2025/04/06 11:33:091960 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#1 - TcpServer.cc:114
+2025/04/06 11:33:092013 INFO  removeChannel fd=13 - EPollPoller.cc:102
+2025/04/06 11:33:092019 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#1]at fd=13state=0 - TcpConnection.cc:58
+2025/04/06 11:33:092093 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:33:820187 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:33:820193 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:33:820228 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:33:820243 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:33:824750 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:33:824768 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:483563 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:34:483588 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:34:483616 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:34:483622 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#2]from %s127.0.0.1:45228 - TcpServer.cc:75
+2025/04/06 11:34:483633 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#2]at fd=13 - TcpConnection.cc:52
+2025/04/06 11:34:483648 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:34:483659 INFO  HTTP Connection UP :127.0.0.1:45228 - main.cc:107
+2025/04/06 11:34:483666 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:34:483671 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:34:483673 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:34:483768 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:34:483862 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:34:483877 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:34:483887 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
+2025/04/06 11:34:483891 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:34:483897 INFO  HTTP Connection DOWN :127.0.0.1:45228 - main.cc:109
+2025/04/06 11:34:483906 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#2 - TcpServer.cc:114
+2025/04/06 11:34:483923 INFO  removeChannel fd=13 - EPollPoller.cc:102
+2025/04/06 11:34:483930 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#2]at fd=13state=0 - TcpConnection.cc:58
+2025/04/06 11:34:483960 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:34:830377 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:830386 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:830452 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:830396 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:830537 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:830423 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:491508 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:491545 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:34:831576 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:831616 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:833584 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:833600 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:840617 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:840632 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:501741 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:501780 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:34:616868 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:34:616892 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:34:616920 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:34:616926 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#3]from %s127.0.0.1:35320 - TcpServer.cc:75
+2025/04/06 11:34:616939 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#3]at fd=13 - TcpConnection.cc:52
+2025/04/06 11:34:616954 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:34:616965 INFO  HTTP Connection UP :127.0.0.1:35320 - main.cc:107
+2025/04/06 11:34:616973 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:34:616977 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:34:616980 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:34:617053 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:34:617184 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:34:617194 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:34:617203 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
+2025/04/06 11:34:617206 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:34:617212 INFO  HTTP Connection DOWN :127.0.0.1:35320 - main.cc:109
+2025/04/06 11:34:617218 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#3 - TcpServer.cc:114
+2025/04/06 11:34:617229 INFO  removeChannel fd=13 - EPollPoller.cc:102
+2025/04/06 11:34:617233 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#3]at fd=13state=0 - TcpConnection.cc:58
+2025/04/06 11:34:617257 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:34:841618 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:841693 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:843582 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:843649 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:843582 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:843709 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:617394 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:617428 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:34:844979 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:845017 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:851894 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:851926 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:851974 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:851987 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:625379 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:625418 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:34:845500 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:845537 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:862254 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:862334 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:862262 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:862354 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:635810 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:635842 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:34:852660 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:852715 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:863197 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:863278 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:34:872647 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:34:872682 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:646061 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:646130 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:35:862822 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:862860 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:873908 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:873940 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:883023 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:883044 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:205825 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:205850 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:205879 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:35:205885 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#4]from %s127.0.0.1:50438 - TcpServer.cc:75
+2025/04/06 11:35:205897 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#4]at fd=13 - TcpConnection.cc:52
+2025/04/06 11:35:205911 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:35:205922 INFO  HTTP Connection UP :127.0.0.1:50438 - main.cc:107
+2025/04/06 11:35:205930 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:35:205934 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:205936 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:206482 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:35:206585 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:206594 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:206603 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
+2025/04/06 11:35:206606 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:35:206611 INFO  HTTP Connection DOWN :127.0.0.1:50438 - main.cc:109
+2025/04/06 11:35:206617 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#4 - TcpServer.cc:114
+2025/04/06 11:35:206628 INFO  removeChannel fd=13 - EPollPoller.cc:102
+2025/04/06 11:35:206632 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#4]at fd=13state=0 - TcpConnection.cc:58
+2025/04/06 11:35:206656 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:35:873177 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:873248 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:874612 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:874631 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:883625 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:883641 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:207447 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:207486 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:35:164849 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:164875 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:164905 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:35:164911 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#5]from %s127.0.0.1:54028 - TcpServer.cc:75
+2025/04/06 11:35:164923 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#5]at fd=13 - TcpConnection.cc:52
+2025/04/06 11:35:164938 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:35:164949 INFO  HTTP Connection UP :127.0.0.1:54028 - main.cc:107
+2025/04/06 11:35:164957 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:35:164961 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:164964 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:177158 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:35:177208 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:177217 INFO  channel handleEvent revents:8 - Channel.cc:73
+2025/04/06 11:35:177265 ERROR TcpConnection::handleError name:HttpServer-127.0.0.1:8080#5- SO_ERROR:%104 - TcpConnection.cc:263
+2025/04/06 11:35:177269 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:35:177272 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:177274 INFO  channel handleEvent revents:17 - Channel.cc:73
+2025/04/06 11:35:177297 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
+2025/04/06 11:35:177300 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:35:177310 INFO  HTTP Connection DOWN :127.0.0.1:54028 - main.cc:109
+2025/04/06 11:35:177322 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#5 - TcpServer.cc:114
+2025/04/06 11:35:177339 INFO  removeChannel fd=13 - EPollPoller.cc:102
+2025/04/06 11:35:177344 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#5]at fd=13state=0 - TcpConnection.cc:58
+2025/04/06 11:35:177359 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:35:874163 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:874201 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:875643 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:875662 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:893676 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:893703 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:177993 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:178030 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:35:877600 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:877651 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:886052 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:886091 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:898652 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:898691 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:183609 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:183648 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 11:35:879140 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:879172 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:896283 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:896307 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:908741 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:908775 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:896393 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:896426 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:896459 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:35:896465 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#6]from %s127.0.0.1:49670 - TcpServer.cc:75
+2025/04/06 11:35:896478 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#6]at fd=13 - TcpConnection.cc:52
+2025/04/06 11:35:896495 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:35:896507 INFO  HTTP Connection UP :127.0.0.1:49670 - main.cc:107
+2025/04/06 11:35:896515 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 11:35:897962 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:897988 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:898016 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:35:898021 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#7]from %s127.0.0.1:49680 - TcpServer.cc:75
+2025/04/06 11:35:898039 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#7]at fd=14 - TcpConnection.cc:52
+2025/04/06 11:35:898059 INFO  func =>fd14events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:35:898072 INFO  HTTP Connection UP :127.0.0.1:49680 - main.cc:107
+2025/04/06 11:35:898079 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:35:898083 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:898086 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:898214 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:35:228262 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:35:228309 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:35:228470 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:35:879829 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:879869 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:897701 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:897739 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:35:919076 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:35:919115 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:228721 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:228760 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:36:881667 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:881701 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:908240 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:908281 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:920810 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:920846 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:239107 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:239150 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:36:882881 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:882920 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:918357 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:918397 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:928823 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:928865 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:239536 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:239575 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:36:893167 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:893207 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:927472 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:927509 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:938043 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:938079 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:249158 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:249195 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:36:903390 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:903433 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:928257 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:928298 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:938715 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:938754 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:259392 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:259426 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:36:913312 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:913359 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:932680 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:932709 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:946555 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:946586 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:269849 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:269891 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:36:923460 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:923511 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:940070 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:940103 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:36:957143 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:36:957165 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:271361 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:271435 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:37:927857 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:927890 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:950527 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:950572 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:959602 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:959638 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:281628 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:281680 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:37:938201 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:938235 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:952135 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:952158 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:967459 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:967495 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:282490 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:282531 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:37:948158 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:948192 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:962589 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:962627 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:971052 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:971071 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:293063 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:293106 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:37:954688 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:954725 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:972950 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:973009 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:981275 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:981313 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:294484 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:294528 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:37:964894 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:964931 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:979103 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:979141 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:985170 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:985191 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:304883 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:304926 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:37:973328 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:973372 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:989669 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:989715 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:37:994176 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:37:994224 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:643328 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:643354 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:643383 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:643389 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#8]from %s127.0.0.1:53456 - TcpServer.cc:75
+2025/04/06 11:38:643408 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#8]at fd=15 - TcpConnection.cc:52
+2025/04/06 11:38:643425 INFO  func =>fd15events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:643463 INFO  HTTP Connection UP :127.0.0.1:53456 - main.cc:107
+2025/04/06 11:38:643472 INFO  fd total count:5 - EPollPoller.cc:32
+2025/04/06 11:38:643477 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:643480 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:643490 INFO  TcpConnection::handleClose fd=15state=2 - TcpConnection.cc:241
+2025/04/06 11:38:643493 INFO  func =>fd15events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:643498 INFO  HTTP Connection DOWN :127.0.0.1:53456 - main.cc:109
+2025/04/06 11:38:643503 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#8 - TcpServer.cc:114
+2025/04/06 11:38:643514 INFO  removeChannel fd=15 - EPollPoller.cc:102
+2025/04/06 11:38:643518 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#8]at fd=15state=0 - TcpConnection.cc:58
+2025/04/06 11:38:643546 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:38:643771 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:643798 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:643829 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:643835 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#9]from %s127.0.0.1:53460 - TcpServer.cc:75
+2025/04/06 11:38:643847 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#9]at fd=15 - TcpConnection.cc:52
+2025/04/06 11:38:643864 INFO  func =>fd15events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:643876 INFO  HTTP Connection UP :127.0.0.1:53460 - main.cc:107
+2025/04/06 11:38:643883 INFO  fd total count:5 - EPollPoller.cc:32
+2025/04/06 11:38:643887 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:643896 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:643906 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:643910 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#10]from %s127.0.0.1:53458 - TcpServer.cc:75
+2025/04/06 11:38:643917 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#10]at fd=16 - TcpConnection.cc:52
+2025/04/06 11:38:643927 INFO  func =>fd16events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:643933 INFO  HTTP Connection UP :127.0.0.1:53458 - main.cc:107
+2025/04/06 11:38:643938 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644021 INFO  fd total count:6 - EPollPoller.cc:32
+2025/04/06 11:38:644031 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644035 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644046 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644050 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#11]from %s127.0.0.1:53482 - TcpServer.cc:75
+2025/04/06 11:38:644058 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#11]at fd=17 - TcpConnection.cc:52
+2025/04/06 11:38:644068 INFO  func =>fd17events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644075 INFO  HTTP Connection UP :127.0.0.1:53482 - main.cc:107
+2025/04/06 11:38:644080 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644161 INFO  fd total count:7 - EPollPoller.cc:32
+2025/04/06 11:38:644169 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644172 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644184 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644188 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#12]from %s127.0.0.1:53494 - TcpServer.cc:75
+2025/04/06 11:38:644200 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#12]at fd=18 - TcpConnection.cc:52
+2025/04/06 11:38:644211 INFO  func =>fd18events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644219 INFO  HTTP Connection UP :127.0.0.1:53494 - main.cc:107
+2025/04/06 11:38:644223 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644277 INFO  fd total count:8 - EPollPoller.cc:32
+2025/04/06 11:38:644285 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644288 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644299 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644303 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#13]from %s127.0.0.1:53508 - TcpServer.cc:75
+2025/04/06 11:38:644311 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#13]at fd=21 - TcpConnection.cc:52
+2025/04/06 11:38:644320 INFO  func =>fd21events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644328 INFO  HTTP Connection UP :127.0.0.1:53508 - main.cc:107
+2025/04/06 11:38:644333 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644382 INFO  fd total count:9 - EPollPoller.cc:32
+2025/04/06 11:38:644389 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644392 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644403 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644407 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#14]from %s127.0.0.1:53520 - TcpServer.cc:75
+2025/04/06 11:38:644415 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#14]at fd=22 - TcpConnection.cc:52
+2025/04/06 11:38:644424 INFO  func =>fd22events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644432 INFO  HTTP Connection UP :127.0.0.1:53520 - main.cc:107
+2025/04/06 11:38:644436 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644489 INFO  fd total count:10 - EPollPoller.cc:32
+2025/04/06 11:38:644498 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644500 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644512 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644515 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#15]from %s127.0.0.1:53530 - TcpServer.cc:75
+2025/04/06 11:38:644527 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#15]at fd=23 - TcpConnection.cc:52
+2025/04/06 11:38:644537 INFO  func =>fd23events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644545 INFO  HTTP Connection UP :127.0.0.1:53530 - main.cc:107
+2025/04/06 11:38:644549 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644605 INFO  fd total count:11 - EPollPoller.cc:32
+2025/04/06 11:38:644626 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644630 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644642 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644646 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#16]from %s127.0.0.1:53532 - TcpServer.cc:75
+2025/04/06 11:38:644654 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#16]at fd=25 - TcpConnection.cc:52
+2025/04/06 11:38:644663 INFO  func =>fd25events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644671 INFO  HTTP Connection UP :127.0.0.1:53532 - main.cc:107
+2025/04/06 11:38:644675 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644726 INFO  fd total count:12 - EPollPoller.cc:32
+2025/04/06 11:38:644734 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644737 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644747 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644751 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#17]from %s127.0.0.1:53538 - TcpServer.cc:75
+2025/04/06 11:38:644759 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#17]at fd=26 - TcpConnection.cc:52
+2025/04/06 11:38:644768 INFO  func =>fd26events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644775 INFO  HTTP Connection UP :127.0.0.1:53538 - main.cc:107
+2025/04/06 11:38:644780 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644830 INFO  fd total count:13 - EPollPoller.cc:32
+2025/04/06 11:38:644838 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644841 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644853 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644856 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#18]from %s127.0.0.1:53550 - TcpServer.cc:75
+2025/04/06 11:38:644864 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#18]at fd=27 - TcpConnection.cc:52
+2025/04/06 11:38:644874 INFO  func =>fd27events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:644889 INFO  HTTP Connection UP :127.0.0.1:53550 - main.cc:107
+2025/04/06 11:38:644894 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644963 INFO  fd total count:14 - EPollPoller.cc:32
+2025/04/06 11:38:644971 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644974 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644985 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:644989 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#19]from %s127.0.0.1:53554 - TcpServer.cc:75
+2025/04/06 11:38:644997 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#19]at fd=28 - TcpConnection.cc:52
+2025/04/06 11:38:645006 INFO  func =>fd28events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645014 INFO  HTTP Connection UP :127.0.0.1:53554 - main.cc:107
+2025/04/06 11:38:645018 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645077 INFO  fd total count:15 - EPollPoller.cc:32
+2025/04/06 11:38:645086 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645089 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645100 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645104 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#20]from %s127.0.0.1:53584 - TcpServer.cc:75
+2025/04/06 11:38:645126 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#20]at fd=29 - TcpConnection.cc:52
+2025/04/06 11:38:645143 INFO  func =>fd29events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645151 INFO  HTTP Connection UP :127.0.0.1:53584 - main.cc:107
+2025/04/06 11:38:645156 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645207 INFO  fd total count:16 - EPollPoller.cc:32
+2025/04/06 11:38:645215 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645218 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645229 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645233 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#21]from %s127.0.0.1:53570 - TcpServer.cc:75
+2025/04/06 11:38:645245 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#21]at fd=30 - TcpConnection.cc:52
+2025/04/06 11:38:645255 INFO  func =>fd30events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645262 INFO  HTTP Connection UP :127.0.0.1:53570 - main.cc:107
+2025/04/06 11:38:645267 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645318 INFO  fd total count:17 - EPollPoller.cc:32
+2025/04/06 11:38:645326 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645329 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645340 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645344 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#22]from %s127.0.0.1:53600 - TcpServer.cc:75
+2025/04/06 11:38:645351 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#22]at fd=31 - TcpConnection.cc:52
+2025/04/06 11:38:645360 INFO  func =>fd31events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645367 INFO  HTTP Connection UP :127.0.0.1:53600 - main.cc:107
+2025/04/06 11:38:645372 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645420 INFO  fd total count:18 - EPollPoller.cc:32
+2025/04/06 11:38:645428 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645431 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645443 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645446 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#23]from %s127.0.0.1:53616 - TcpServer.cc:75
+2025/04/06 11:38:645454 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#23]at fd=32 - TcpConnection.cc:52
+2025/04/06 11:38:645463 INFO  func =>fd32events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645470 INFO  HTTP Connection UP :127.0.0.1:53616 - main.cc:107
+2025/04/06 11:38:645475 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645523 INFO  fd total count:19 - EPollPoller.cc:32
+2025/04/06 11:38:645531 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645534 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645545 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645548 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#24]from %s127.0.0.1:53626 - TcpServer.cc:75
+2025/04/06 11:38:645560 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#24]at fd=33 - TcpConnection.cc:52
+2025/04/06 11:38:645570 INFO  func =>fd33events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645577 INFO  HTTP Connection UP :127.0.0.1:53626 - main.cc:107
+2025/04/06 11:38:645582 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645648 INFO  fd total count:20 - EPollPoller.cc:32
+2025/04/06 11:38:645656 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645659 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645670 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645674 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#25]from %s127.0.0.1:53638 - TcpServer.cc:75
+2025/04/06 11:38:645682 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#25]at fd=34 - TcpConnection.cc:52
+2025/04/06 11:38:645691 INFO  func =>fd34events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645699 INFO  HTTP Connection UP :127.0.0.1:53638 - main.cc:107
+2025/04/06 11:38:645703 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645751 INFO  fd total count:21 - EPollPoller.cc:32
+2025/04/06 11:38:645759 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645762 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645774 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645777 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#26]from %s127.0.0.1:53642 - TcpServer.cc:75
+2025/04/06 11:38:645789 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#26]at fd=35 - TcpConnection.cc:52
+2025/04/06 11:38:645799 INFO  func =>fd35events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645807 INFO  HTTP Connection UP :127.0.0.1:53642 - main.cc:107
+2025/04/06 11:38:645811 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645863 INFO  fd total count:22 - EPollPoller.cc:32
+2025/04/06 11:38:645871 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645874 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645885 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645889 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#27]from %s127.0.0.1:53658 - TcpServer.cc:75
+2025/04/06 11:38:645896 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#27]at fd=36 - TcpConnection.cc:52
+2025/04/06 11:38:645906 INFO  func =>fd36events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:645913 INFO  HTTP Connection UP :127.0.0.1:53658 - main.cc:107
+2025/04/06 11:38:645918 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645970 INFO  fd total count:23 - EPollPoller.cc:32
+2025/04/06 11:38:645978 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645981 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645993 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:645997 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#28]from %s127.0.0.1:53664 - TcpServer.cc:75
+2025/04/06 11:38:646004 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#28]at fd=37 - TcpConnection.cc:52
+2025/04/06 11:38:646013 INFO  func =>fd37events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646021 INFO  HTTP Connection UP :127.0.0.1:53664 - main.cc:107
+2025/04/06 11:38:646026 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646080 INFO  fd total count:24 - EPollPoller.cc:32
+2025/04/06 11:38:646088 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646091 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646114 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646123 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#29]from %s127.0.0.1:53672 - TcpServer.cc:75
+2025/04/06 11:38:646131 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#29]at fd=38 - TcpConnection.cc:52
+2025/04/06 11:38:646142 INFO  func =>fd38events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646149 INFO  HTTP Connection UP :127.0.0.1:53672 - main.cc:107
+2025/04/06 11:38:646154 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646204 INFO  fd total count:25 - EPollPoller.cc:32
+2025/04/06 11:38:646212 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646215 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646226 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646229 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#30]from %s127.0.0.1:53684 - TcpServer.cc:75
+2025/04/06 11:38:646241 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#30]at fd=39 - TcpConnection.cc:52
+2025/04/06 11:38:646251 INFO  func =>fd39events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646259 INFO  HTTP Connection UP :127.0.0.1:53684 - main.cc:107
+2025/04/06 11:38:646263 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646316 INFO  fd total count:26 - EPollPoller.cc:32
+2025/04/06 11:38:646324 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646327 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646338 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646341 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#31]from %s127.0.0.1:53692 - TcpServer.cc:75
+2025/04/06 11:38:646349 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#31]at fd=40 - TcpConnection.cc:52
+2025/04/06 11:38:646359 INFO  func =>fd40events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646366 INFO  HTTP Connection UP :127.0.0.1:53692 - main.cc:107
+2025/04/06 11:38:646370 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646419 INFO  fd total count:27 - EPollPoller.cc:32
+2025/04/06 11:38:646427 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646430 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646441 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646445 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#32]from %s127.0.0.1:53704 - TcpServer.cc:75
+2025/04/06 11:38:646453 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#32]at fd=41 - TcpConnection.cc:52
+2025/04/06 11:38:646462 INFO  func =>fd41events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646469 INFO  HTTP Connection UP :127.0.0.1:53704 - main.cc:107
+2025/04/06 11:38:646474 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646521 INFO  fd total count:28 - EPollPoller.cc:32
+2025/04/06 11:38:646529 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646532 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646543 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646546 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#33]from %s127.0.0.1:53712 - TcpServer.cc:75
+2025/04/06 11:38:646558 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#33]at fd=42 - TcpConnection.cc:52
+2025/04/06 11:38:646568 INFO  func =>fd42events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646576 INFO  HTTP Connection UP :127.0.0.1:53712 - main.cc:107
+2025/04/06 11:38:646580 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646661 INFO  fd total count:29 - EPollPoller.cc:32
+2025/04/06 11:38:646670 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646674 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646685 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646689 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#34]from %s127.0.0.1:53716 - TcpServer.cc:75
+2025/04/06 11:38:646697 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#34]at fd=43 - TcpConnection.cc:52
+2025/04/06 11:38:646706 INFO  func =>fd43events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646716 INFO  HTTP Connection UP :127.0.0.1:53716 - main.cc:107
+2025/04/06 11:38:646721 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646784 INFO  fd total count:30 - EPollPoller.cc:32
+2025/04/06 11:38:646793 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646796 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646807 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646811 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#35]from %s127.0.0.1:53722 - TcpServer.cc:75
+2025/04/06 11:38:646823 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#35]at fd=44 - TcpConnection.cc:52
+2025/04/06 11:38:646834 INFO  func =>fd44events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646841 INFO  HTTP Connection UP :127.0.0.1:53722 - main.cc:107
+2025/04/06 11:38:646846 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646897 INFO  fd total count:31 - EPollPoller.cc:32
+2025/04/06 11:38:646905 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646908 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646925 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:646929 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#36]from %s127.0.0.1:53732 - TcpServer.cc:75
+2025/04/06 11:38:646937 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#36]at fd=45 - TcpConnection.cc:52
+2025/04/06 11:38:646948 INFO  func =>fd45events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:646956 INFO  HTTP Connection UP :127.0.0.1:53732 - main.cc:107
+2025/04/06 11:38:646961 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647012 INFO  fd total count:32 - EPollPoller.cc:32
+2025/04/06 11:38:647021 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647024 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647034 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647038 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#37]from %s127.0.0.1:53734 - TcpServer.cc:75
+2025/04/06 11:38:647046 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#37]at fd=46 - TcpConnection.cc:52
+2025/04/06 11:38:647055 INFO  func =>fd46events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647063 INFO  HTTP Connection UP :127.0.0.1:53734 - main.cc:107
+2025/04/06 11:38:647067 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647144 INFO  fd total count:33 - EPollPoller.cc:32
+2025/04/06 11:38:647153 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647156 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647167 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647171 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#38]from %s127.0.0.1:53750 - TcpServer.cc:75
+2025/04/06 11:38:647179 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#38]at fd=47 - TcpConnection.cc:52
+2025/04/06 11:38:647189 INFO  func =>fd47events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647196 INFO  HTTP Connection UP :127.0.0.1:53750 - main.cc:107
+2025/04/06 11:38:647201 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647248 INFO  fd total count:34 - EPollPoller.cc:32
+2025/04/06 11:38:647256 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647259 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647270 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647274 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#39]from %s127.0.0.1:53754 - TcpServer.cc:75
+2025/04/06 11:38:647285 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#39]at fd=48 - TcpConnection.cc:52
+2025/04/06 11:38:647296 INFO  func =>fd48events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647303 INFO  HTTP Connection UP :127.0.0.1:53754 - main.cc:107
+2025/04/06 11:38:647308 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647359 INFO  fd total count:35 - EPollPoller.cc:32
+2025/04/06 11:38:647367 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647370 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647381 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647385 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#40]from %s127.0.0.1:53758 - TcpServer.cc:75
+2025/04/06 11:38:647392 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#40]at fd=49 - TcpConnection.cc:52
+2025/04/06 11:38:647402 INFO  func =>fd49events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647409 INFO  HTTP Connection UP :127.0.0.1:53758 - main.cc:107
+2025/04/06 11:38:647414 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647462 INFO  fd total count:36 - EPollPoller.cc:32
+2025/04/06 11:38:647470 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647473 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647484 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647487 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#41]from %s127.0.0.1:53764 - TcpServer.cc:75
+2025/04/06 11:38:647495 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#41]at fd=50 - TcpConnection.cc:52
+2025/04/06 11:38:647505 INFO  func =>fd50events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647512 INFO  HTTP Connection UP :127.0.0.1:53764 - main.cc:107
+2025/04/06 11:38:647516 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647564 INFO  fd total count:37 - EPollPoller.cc:32
+2025/04/06 11:38:647572 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647575 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647596 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647603 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#42]from %s127.0.0.1:53774 - TcpServer.cc:75
+2025/04/06 11:38:647615 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#42]at fd=51 - TcpConnection.cc:52
+2025/04/06 11:38:647626 INFO  func =>fd51events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647634 INFO  HTTP Connection UP :127.0.0.1:53774 - main.cc:107
+2025/04/06 11:38:647638 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647694 INFO  fd total count:38 - EPollPoller.cc:32
+2025/04/06 11:38:647702 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647705 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647716 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647719 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#43]from %s127.0.0.1:53788 - TcpServer.cc:75
+2025/04/06 11:38:647727 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#43]at fd=52 - TcpConnection.cc:52
+2025/04/06 11:38:647736 INFO  func =>fd52events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647744 INFO  HTTP Connection UP :127.0.0.1:53788 - main.cc:107
+2025/04/06 11:38:647748 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647795 INFO  fd total count:39 - EPollPoller.cc:32
+2025/04/06 11:38:647803 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647806 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647817 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647821 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#44]from %s127.0.0.1:53794 - TcpServer.cc:75
+2025/04/06 11:38:647828 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#44]at fd=53 - TcpConnection.cc:52
+2025/04/06 11:38:647838 INFO  func =>fd53events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647845 INFO  HTTP Connection UP :127.0.0.1:53794 - main.cc:107
+2025/04/06 11:38:647850 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647898 INFO  fd total count:40 - EPollPoller.cc:32
+2025/04/06 11:38:647906 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:647909 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647919 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:647923 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#45]from %s127.0.0.1:53804 - TcpServer.cc:75
+2025/04/06 11:38:647931 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#45]at fd=54 - TcpConnection.cc:52
+2025/04/06 11:38:647940 INFO  func =>fd54events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:647948 INFO  HTTP Connection UP :127.0.0.1:53804 - main.cc:107
+2025/04/06 11:38:647952 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648006 INFO  fd total count:41 - EPollPoller.cc:32
+2025/04/06 11:38:648014 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648017 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648028 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648032 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#46]from %s127.0.0.1:53814 - TcpServer.cc:75
+2025/04/06 11:38:648039 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#46]at fd=55 - TcpConnection.cc:52
+2025/04/06 11:38:648049 INFO  func =>fd55events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648056 INFO  HTTP Connection UP :127.0.0.1:53814 - main.cc:107
+2025/04/06 11:38:648061 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648126 INFO  fd total count:42 - EPollPoller.cc:32
+2025/04/06 11:38:648135 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648138 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648149 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648153 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#47]from %s127.0.0.1:53828 - TcpServer.cc:75
+2025/04/06 11:38:648161 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#47]at fd=56 - TcpConnection.cc:52
+2025/04/06 11:38:648171 INFO  func =>fd56events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648178 INFO  HTTP Connection UP :127.0.0.1:53828 - main.cc:107
+2025/04/06 11:38:648183 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648234 INFO  fd total count:43 - EPollPoller.cc:32
+2025/04/06 11:38:648243 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648246 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648258 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648261 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#48]from %s127.0.0.1:53838 - TcpServer.cc:75
+2025/04/06 11:38:648273 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#48]at fd=57 - TcpConnection.cc:52
+2025/04/06 11:38:648284 INFO  func =>fd57events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648291 INFO  HTTP Connection UP :127.0.0.1:53838 - main.cc:107
+2025/04/06 11:38:648296 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648347 INFO  fd total count:44 - EPollPoller.cc:32
+2025/04/06 11:38:648355 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648358 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648369 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648372 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#49]from %s127.0.0.1:53850 - TcpServer.cc:75
+2025/04/06 11:38:648380 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#49]at fd=58 - TcpConnection.cc:52
+2025/04/06 11:38:648390 INFO  func =>fd58events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648397 INFO  HTTP Connection UP :127.0.0.1:53850 - main.cc:107
+2025/04/06 11:38:648402 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648450 INFO  fd total count:45 - EPollPoller.cc:32
+2025/04/06 11:38:648458 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648461 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648472 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648476 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#50]from %s127.0.0.1:53862 - TcpServer.cc:75
+2025/04/06 11:38:648483 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#50]at fd=59 - TcpConnection.cc:52
+2025/04/06 11:38:648493 INFO  func =>fd59events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648500 INFO  HTTP Connection UP :127.0.0.1:53862 - main.cc:107
+2025/04/06 11:38:648505 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648553 INFO  fd total count:46 - EPollPoller.cc:32
+2025/04/06 11:38:648561 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648564 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648575 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648590 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#51]from %s127.0.0.1:53878 - TcpServer.cc:75
+2025/04/06 11:38:648605 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#51]at fd=60 - TcpConnection.cc:52
+2025/04/06 11:38:648616 INFO  func =>fd60events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648624 INFO  HTTP Connection UP :127.0.0.1:53878 - main.cc:107
+2025/04/06 11:38:648628 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648684 INFO  fd total count:47 - EPollPoller.cc:32
+2025/04/06 11:38:648693 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648696 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648707 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648711 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#52]from %s127.0.0.1:53888 - TcpServer.cc:75
+2025/04/06 11:38:648719 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#52]at fd=61 - TcpConnection.cc:52
+2025/04/06 11:38:648729 INFO  func =>fd61events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648736 INFO  HTTP Connection UP :127.0.0.1:53888 - main.cc:107
+2025/04/06 11:38:648740 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648793 INFO  fd total count:48 - EPollPoller.cc:32
+2025/04/06 11:38:648802 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:648805 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648816 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:648819 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#53]from %s127.0.0.1:53902 - TcpServer.cc:75
+2025/04/06 11:38:648831 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#53]at fd=62 - TcpConnection.cc:52
+2025/04/06 11:38:648842 INFO  func =>fd62events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:648849 INFO  HTTP Connection UP :127.0.0.1:53902 - main.cc:107
+2025/04/06 11:38:648853 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648905 INFO  fd total count:49 - EPollPoller.cc:32
+2025/04/06 11:38:648913 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:648916 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648965 INFO  fd total count:49 - EPollPoller.cc:32
+2025/04/06 11:38:649102 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:649111 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649123 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649127 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#54]from %s127.0.0.1:53906 - TcpServer.cc:75
+2025/04/06 11:38:649135 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#54]at fd=63 - TcpConnection.cc:52
+2025/04/06 11:38:649146 INFO  func =>fd63events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649154 INFO  HTTP Connection UP :127.0.0.1:53906 - main.cc:107
+2025/04/06 11:38:649159 INFO  fd total count:50 - EPollPoller.cc:32
+2025/04/06 11:38:649163 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:649166 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649218 INFO  fd total count:50 - EPollPoller.cc:32
+2025/04/06 11:38:649226 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:649229 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649243 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649247 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#55]from %s127.0.0.1:53908 - TcpServer.cc:75
+2025/04/06 11:38:649255 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#55]at fd=64 - TcpConnection.cc:52
+2025/04/06 11:38:649265 INFO  func =>fd64events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649272 INFO  HTTP Connection UP :127.0.0.1:53908 - main.cc:107
+2025/04/06 11:38:649277 INFO  fd total count:51 - EPollPoller.cc:32
+2025/04/06 11:38:649281 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:649283 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649291 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649295 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#56]from %s127.0.0.1:53924 - TcpServer.cc:75
+2025/04/06 11:38:649302 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#56]at fd=65 - TcpConnection.cc:52
+2025/04/06 11:38:649326 INFO  func =>fd65events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649334 INFO  HTTP Connection UP :127.0.0.1:53924 - main.cc:107
+2025/04/06 11:38:649339 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649388 INFO  fd total count:52 - EPollPoller.cc:32
+2025/04/06 11:38:649396 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:649399 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649410 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649414 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#57]from %s127.0.0.1:53940 - TcpServer.cc:75
+2025/04/06 11:38:649425 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#57]at fd=66 - TcpConnection.cc:52
+2025/04/06 11:38:649436 INFO  func =>fd66events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649443 INFO  HTTP Connection UP :127.0.0.1:53940 - main.cc:107
+2025/04/06 11:38:649448 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649500 INFO  fd total count:53 - EPollPoller.cc:32
+2025/04/06 11:38:649508 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:649511 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649522 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649526 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#58]from %s127.0.0.1:53946 - TcpServer.cc:75
+2025/04/06 11:38:649533 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#58]at fd=67 - TcpConnection.cc:52
+2025/04/06 11:38:649543 INFO  func =>fd67events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649550 INFO  HTTP Connection UP :127.0.0.1:53946 - main.cc:107
+2025/04/06 11:38:649555 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649624 INFO  fd total count:54 - EPollPoller.cc:32
+2025/04/06 11:38:649633 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:649636 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649652 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649656 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#59]from %s127.0.0.1:53950 - TcpServer.cc:75
+2025/04/06 11:38:649664 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#59]at fd=68 - TcpConnection.cc:52
+2025/04/06 11:38:649674 INFO  func =>fd68events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649681 INFO  HTTP Connection UP :127.0.0.1:53950 - main.cc:107
+2025/04/06 11:38:649686 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649737 INFO  fd total count:55 - EPollPoller.cc:32
+2025/04/06 11:38:649746 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:649748 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649759 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649763 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#60]from %s127.0.0.1:53962 - TcpServer.cc:75
+2025/04/06 11:38:649771 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#60]at fd=69 - TcpConnection.cc:52
+2025/04/06 11:38:649780 INFO  func =>fd69events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649787 INFO  HTTP Connection UP :127.0.0.1:53962 - main.cc:107
+2025/04/06 11:38:649792 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649841 INFO  fd total count:56 - EPollPoller.cc:32
+2025/04/06 11:38:649849 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:649852 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649862 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649866 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#61]from %s127.0.0.1:53974 - TcpServer.cc:75
+2025/04/06 11:38:649877 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#61]at fd=70 - TcpConnection.cc:52
+2025/04/06 11:38:649888 INFO  func =>fd70events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:649895 INFO  HTTP Connection UP :127.0.0.1:53974 - main.cc:107
+2025/04/06 11:38:649900 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649969 INFO  fd total count:57 - EPollPoller.cc:32
+2025/04/06 11:38:649978 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:649981 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649992 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:649996 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#62]from %s127.0.0.1:53986 - TcpServer.cc:75
+2025/04/06 11:38:650004 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#62]at fd=71 - TcpConnection.cc:52
+2025/04/06 11:38:650014 INFO  func =>fd71events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650021 INFO  HTTP Connection UP :127.0.0.1:53986 - main.cc:107
+2025/04/06 11:38:650026 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650096 INFO  fd total count:58 - EPollPoller.cc:32
+2025/04/06 11:38:650105 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650108 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650119 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650123 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#63]from %s127.0.0.1:53990 - TcpServer.cc:75
+2025/04/06 11:38:650131 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#63]at fd=72 - TcpConnection.cc:52
+2025/04/06 11:38:650141 INFO  func =>fd72events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650148 INFO  HTTP Connection UP :127.0.0.1:53990 - main.cc:107
+2025/04/06 11:38:650153 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650202 INFO  fd total count:59 - EPollPoller.cc:32
+2025/04/06 11:38:650210 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650213 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650224 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650227 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#64]from %s127.0.0.1:54006 - TcpServer.cc:75
+2025/04/06 11:38:650240 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#64]at fd=73 - TcpConnection.cc:52
+2025/04/06 11:38:650251 INFO  func =>fd73events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650263 INFO  HTTP Connection UP :127.0.0.1:54006 - main.cc:107
+2025/04/06 11:38:650268 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650307 INFO  fd total count:60 - EPollPoller.cc:32
+2025/04/06 11:38:650313 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650316 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650326 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650329 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#65]from %s127.0.0.1:54016 - TcpServer.cc:75
+2025/04/06 11:38:650337 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#65]at fd=74 - TcpConnection.cc:52
+2025/04/06 11:38:650346 INFO  func =>fd74events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650353 INFO  HTTP Connection UP :127.0.0.1:54016 - main.cc:107
+2025/04/06 11:38:650358 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650405 INFO  fd total count:61 - EPollPoller.cc:32
+2025/04/06 11:38:650413 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650416 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650427 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650430 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#66]from %s127.0.0.1:54028 - TcpServer.cc:75
+2025/04/06 11:38:650442 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#66]at fd=75 - TcpConnection.cc:52
+2025/04/06 11:38:650455 INFO  func =>fd75events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650463 INFO  HTTP Connection UP :127.0.0.1:54028 - main.cc:107
+2025/04/06 11:38:650468 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650519 INFO  fd total count:62 - EPollPoller.cc:32
+2025/04/06 11:38:650527 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650530 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650542 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650546 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#67]from %s127.0.0.1:54040 - TcpServer.cc:75
+2025/04/06 11:38:650554 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#67]at fd=76 - TcpConnection.cc:52
+2025/04/06 11:38:650574 INFO  func =>fd76events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650586 INFO  HTTP Connection UP :127.0.0.1:54040 - main.cc:107
+2025/04/06 11:38:650591 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650684 INFO  fd total count:63 - EPollPoller.cc:32
+2025/04/06 11:38:650693 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650696 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650708 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650711 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#68]from %s127.0.0.1:54044 - TcpServer.cc:75
+2025/04/06 11:38:650719 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#68]at fd=77 - TcpConnection.cc:52
+2025/04/06 11:38:650729 INFO  func =>fd77events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650736 INFO  HTTP Connection UP :127.0.0.1:54044 - main.cc:107
+2025/04/06 11:38:650741 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650796 INFO  fd total count:64 - EPollPoller.cc:32
+2025/04/06 11:38:650807 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650811 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650826 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650830 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#69]from %s127.0.0.1:54058 - TcpServer.cc:75
+2025/04/06 11:38:650838 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#69]at fd=78 - TcpConnection.cc:52
+2025/04/06 11:38:650848 INFO  func =>fd78events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650856 INFO  HTTP Connection UP :127.0.0.1:54058 - main.cc:107
+2025/04/06 11:38:650861 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650915 INFO  fd total count:65 - EPollPoller.cc:32
+2025/04/06 11:38:650924 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:650927 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650938 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:650942 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#70]from %s127.0.0.1:54060 - TcpServer.cc:75
+2025/04/06 11:38:650954 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#70]at fd=79 - TcpConnection.cc:52
+2025/04/06 11:38:650965 INFO  func =>fd79events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:650973 INFO  HTTP Connection UP :127.0.0.1:54060 - main.cc:107
+2025/04/06 11:38:650978 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651031 INFO  fd total count:66 - EPollPoller.cc:32
+2025/04/06 11:38:651039 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:651042 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651053 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:651057 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#71]from %s127.0.0.1:54074 - TcpServer.cc:75
+2025/04/06 11:38:651088 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#71]at fd=80 - TcpConnection.cc:52
+2025/04/06 11:38:651102 INFO  func =>fd80events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:651113 INFO  HTTP Connection UP :127.0.0.1:54074 - main.cc:107
+2025/04/06 11:38:651119 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651168 INFO  fd total count:67 - EPollPoller.cc:32
+2025/04/06 11:38:651177 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:651182 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651197 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:651202 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#72]from %s127.0.0.1:54076 - TcpServer.cc:75
+2025/04/06 11:38:651218 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#72]at fd=81 - TcpConnection.cc:52
+2025/04/06 11:38:651233 INFO  func =>fd81events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:651243 INFO  HTTP Connection UP :127.0.0.1:54076 - main.cc:107
+2025/04/06 11:38:651250 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651331 INFO  fd total count:68 - EPollPoller.cc:32
+2025/04/06 11:38:651343 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:651348 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651364 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:651370 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#73]from %s127.0.0.1:54088 - TcpServer.cc:75
+2025/04/06 11:38:651381 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#73]at fd=82 - TcpConnection.cc:52
+2025/04/06 11:38:651395 INFO  func =>fd82events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:651407 INFO  HTTP Connection UP :127.0.0.1:54088 - main.cc:107
+2025/04/06 11:38:651414 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651487 INFO  fd total count:69 - EPollPoller.cc:32
+2025/04/06 11:38:651498 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:651503 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651545 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:651571 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#74]from %s127.0.0.1:54102 - TcpServer.cc:75
+2025/04/06 11:38:651589 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#74]at fd=83 - TcpConnection.cc:52
+2025/04/06 11:38:651606 INFO  func =>fd83events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:651620 INFO  HTTP Connection UP :127.0.0.1:54102 - main.cc:107
+2025/04/06 11:38:651628 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651706 INFO  fd total count:70 - EPollPoller.cc:32
+2025/04/06 11:38:651717 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:651722 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651739 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:651744 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#75]from %s127.0.0.1:54106 - TcpServer.cc:75
+2025/04/06 11:38:651756 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#75]at fd=84 - TcpConnection.cc:52
+2025/04/06 11:38:651770 INFO  func =>fd84events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:651782 INFO  HTTP Connection UP :127.0.0.1:54106 - main.cc:107
+2025/04/06 11:38:651788 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651863 INFO  fd total count:71 - EPollPoller.cc:32
+2025/04/06 11:38:651874 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:651880 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651897 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:651902 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#76]from %s127.0.0.1:54118 - TcpServer.cc:75
+2025/04/06 11:38:651919 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#76]at fd=85 - TcpConnection.cc:52
+2025/04/06 11:38:651933 INFO  func =>fd85events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:651943 INFO  HTTP Connection UP :127.0.0.1:54118 - main.cc:107
+2025/04/06 11:38:651950 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652022 INFO  fd total count:72 - EPollPoller.cc:32
+2025/04/06 11:38:652033 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:652038 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652085 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:652097 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#77]from %s127.0.0.1:54124 - TcpServer.cc:75
+2025/04/06 11:38:652111 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#77]at fd=86 - TcpConnection.cc:52
+2025/04/06 11:38:652126 INFO  func =>fd86events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:652139 INFO  HTTP Connection UP :127.0.0.1:54124 - main.cc:107
+2025/04/06 11:38:652147 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652222 INFO  fd total count:73 - EPollPoller.cc:32
+2025/04/06 11:38:652233 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:652239 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652256 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:652263 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#78]from %s127.0.0.1:54136 - TcpServer.cc:75
+2025/04/06 11:38:652275 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#78]at fd=87 - TcpConnection.cc:52
+2025/04/06 11:38:652290 INFO  func =>fd87events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:652302 INFO  HTTP Connection UP :127.0.0.1:54136 - main.cc:107
+2025/04/06 11:38:652310 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652378 INFO  fd total count:74 - EPollPoller.cc:32
+2025/04/06 11:38:652389 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:652393 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652410 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:652415 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#79]from %s127.0.0.1:54150 - TcpServer.cc:75
+2025/04/06 11:38:652426 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#79]at fd=88 - TcpConnection.cc:52
+2025/04/06 11:38:652438 INFO  func =>fd88events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:652450 INFO  HTTP Connection UP :127.0.0.1:54150 - main.cc:107
+2025/04/06 11:38:652456 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652518 INFO  fd total count:75 - EPollPoller.cc:32
+2025/04/06 11:38:652528 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:652532 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652548 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:652553 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#80]from %s127.0.0.1:54160 - TcpServer.cc:75
+2025/04/06 11:38:652569 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#80]at fd=89 - TcpConnection.cc:52
+2025/04/06 11:38:652616 INFO  func =>fd89events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:652632 INFO  HTTP Connection UP :127.0.0.1:54160 - main.cc:107
+2025/04/06 11:38:652640 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652719 INFO  fd total count:76 - EPollPoller.cc:32
+2025/04/06 11:38:652730 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:652734 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652753 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:652757 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#81]from %s127.0.0.1:54174 - TcpServer.cc:75
+2025/04/06 11:38:652768 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#81]at fd=90 - TcpConnection.cc:52
+2025/04/06 11:38:652783 INFO  func =>fd90events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:652793 INFO  HTTP Connection UP :127.0.0.1:54174 - main.cc:107
+2025/04/06 11:38:652799 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652849 INFO  fd total count:77 - EPollPoller.cc:32
+2025/04/06 11:38:652858 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:652862 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652878 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:652883 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#82]from %s127.0.0.1:54190 - TcpServer.cc:75
+2025/04/06 11:38:652894 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#82]at fd=91 - TcpConnection.cc:52
+2025/04/06 11:38:652906 INFO  func =>fd91events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:652915 INFO  HTTP Connection UP :127.0.0.1:54190 - main.cc:107
+2025/04/06 11:38:652923 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652982 INFO  fd total count:78 - EPollPoller.cc:32
+2025/04/06 11:38:652992 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:652996 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653011 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:653015 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#83]from %s127.0.0.1:54220 - TcpServer.cc:75
+2025/04/06 11:38:653035 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#83]at fd=92 - TcpConnection.cc:52
+2025/04/06 11:38:653048 INFO  func =>fd92events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:653058 INFO  HTTP Connection UP :127.0.0.1:54220 - main.cc:107
+2025/04/06 11:38:653064 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653145 INFO  fd total count:79 - EPollPoller.cc:32
+2025/04/06 11:38:653154 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:653158 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653173 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:653178 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#84]from %s127.0.0.1:54206 - TcpServer.cc:75
+2025/04/06 11:38:653188 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#84]at fd=93 - TcpConnection.cc:52
+2025/04/06 11:38:653200 INFO  func =>fd93events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:653210 INFO  HTTP Connection UP :127.0.0.1:54206 - main.cc:107
+2025/04/06 11:38:653217 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653259 INFO  fd total count:80 - EPollPoller.cc:32
+2025/04/06 11:38:653267 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:653271 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653284 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:653289 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#85]from %s127.0.0.1:54226 - TcpServer.cc:75
+2025/04/06 11:38:653303 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#85]at fd=94 - TcpConnection.cc:52
+2025/04/06 11:38:653317 INFO  func =>fd94events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:653326 INFO  HTTP Connection UP :127.0.0.1:54226 - main.cc:107
+2025/04/06 11:38:653333 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653395 INFO  fd total count:81 - EPollPoller.cc:32
+2025/04/06 11:38:653405 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:653409 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653423 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:653428 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#86]from %s127.0.0.1:54234 - TcpServer.cc:75
+2025/04/06 11:38:653438 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#86]at fd=95 - TcpConnection.cc:52
+2025/04/06 11:38:653451 INFO  func =>fd95events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:653461 INFO  HTTP Connection UP :127.0.0.1:54234 - main.cc:107
+2025/04/06 11:38:653467 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653531 INFO  fd total count:82 - EPollPoller.cc:32
+2025/04/06 11:38:653541 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:653546 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653561 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:653579 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#87]from %s127.0.0.1:54238 - TcpServer.cc:75
+2025/04/06 11:38:653596 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#87]at fd=96 - TcpConnection.cc:52
+2025/04/06 11:38:653611 INFO  func =>fd96events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:653623 INFO  HTTP Connection UP :127.0.0.1:54238 - main.cc:107
+2025/04/06 11:38:653630 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653696 INFO  fd total count:83 - EPollPoller.cc:32
+2025/04/06 11:38:653707 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:653711 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653726 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:653732 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#88]from %s127.0.0.1:54246 - TcpServer.cc:75
+2025/04/06 11:38:653743 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#88]at fd=97 - TcpConnection.cc:52
+2025/04/06 11:38:653756 INFO  func =>fd97events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:653767 INFO  HTTP Connection UP :127.0.0.1:54246 - main.cc:107
+2025/04/06 11:38:653773 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653839 INFO  fd total count:84 - EPollPoller.cc:32
+2025/04/06 11:38:653851 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:653855 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653871 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:653877 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#89]from %s127.0.0.1:54260 - TcpServer.cc:75
+2025/04/06 11:38:653894 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#89]at fd=98 - TcpConnection.cc:52
+2025/04/06 11:38:653909 INFO  func =>fd98events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:653920 INFO  HTTP Connection UP :127.0.0.1:54260 - main.cc:107
+2025/04/06 11:38:653928 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653995 INFO  fd total count:85 - EPollPoller.cc:32
+2025/04/06 11:38:654006 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:654011 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654028 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:654033 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#90]from %s127.0.0.1:54268 - TcpServer.cc:75
+2025/04/06 11:38:654044 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#90]at fd=99 - TcpConnection.cc:52
+2025/04/06 11:38:654058 INFO  func =>fd99events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:654093 INFO  HTTP Connection UP :127.0.0.1:54268 - main.cc:107
+2025/04/06 11:38:654104 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654170 INFO  fd total count:86 - EPollPoller.cc:32
+2025/04/06 11:38:654180 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:654184 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654199 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:654204 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#91]from %s127.0.0.1:54270 - TcpServer.cc:75
+2025/04/06 11:38:654214 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#91]at fd=100 - TcpConnection.cc:52
+2025/04/06 11:38:654226 INFO  func =>fd100events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:654236 INFO  HTTP Connection UP :127.0.0.1:54270 - main.cc:107
+2025/04/06 11:38:654242 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654303 INFO  fd total count:87 - EPollPoller.cc:32
+2025/04/06 11:38:654314 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:654319 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654335 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:654342 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#92]from %s127.0.0.1:54282 - TcpServer.cc:75
+2025/04/06 11:38:654358 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#92]at fd=101 - TcpConnection.cc:52
+2025/04/06 11:38:654373 INFO  func =>fd101events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:654384 INFO  HTTP Connection UP :127.0.0.1:54282 - main.cc:107
+2025/04/06 11:38:654391 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654461 INFO  fd total count:88 - EPollPoller.cc:32
+2025/04/06 11:38:654472 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:654477 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654496 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:654502 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#93]from %s127.0.0.1:54290 - TcpServer.cc:75
+2025/04/06 11:38:654512 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#93]at fd=102 - TcpConnection.cc:52
+2025/04/06 11:38:654526 INFO  func =>fd102events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:654538 INFO  HTTP Connection UP :127.0.0.1:54290 - main.cc:107
+2025/04/06 11:38:654545 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654624 INFO  fd total count:89 - EPollPoller.cc:32
+2025/04/06 11:38:654635 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:654640 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654655 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:654660 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#94]from %s127.0.0.1:54296 - TcpServer.cc:75
+2025/04/06 11:38:654676 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#94]at fd=103 - TcpConnection.cc:52
+2025/04/06 11:38:654691 INFO  func =>fd103events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:654702 INFO  HTTP Connection UP :127.0.0.1:54296 - main.cc:107
+2025/04/06 11:38:654710 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654773 INFO  fd total count:90 - EPollPoller.cc:32
+2025/04/06 11:38:654783 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:654787 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654802 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:654807 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#95]from %s127.0.0.1:54310 - TcpServer.cc:75
+2025/04/06 11:38:654818 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#95]at fd=104 - TcpConnection.cc:52
+2025/04/06 11:38:654830 INFO  func =>fd104events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:654840 INFO  HTTP Connection UP :127.0.0.1:54310 - main.cc:107
+2025/04/06 11:38:654847 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654904 INFO  fd total count:91 - EPollPoller.cc:32
+2025/04/06 11:38:654914 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:654918 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654932 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:654937 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#96]from %s127.0.0.1:54320 - TcpServer.cc:75
+2025/04/06 11:38:654947 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#96]at fd=105 - TcpConnection.cc:52
+2025/04/06 11:38:654959 INFO  func =>fd105events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:654969 INFO  HTTP Connection UP :127.0.0.1:54320 - main.cc:107
+2025/04/06 11:38:654976 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655040 INFO  fd total count:92 - EPollPoller.cc:32
+2025/04/06 11:38:655050 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:655054 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655091 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:655101 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#97]from %s127.0.0.1:54330 - TcpServer.cc:75
+2025/04/06 11:38:655113 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#97]at fd=106 - TcpConnection.cc:52
+2025/04/06 11:38:655127 INFO  func =>fd106events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:655137 INFO  HTTP Connection UP :127.0.0.1:54330 - main.cc:107
+2025/04/06 11:38:655144 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655206 INFO  fd total count:93 - EPollPoller.cc:32
+2025/04/06 11:38:655216 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:655220 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655235 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:655240 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#98]from %s127.0.0.1:54340 - TcpServer.cc:75
+2025/04/06 11:38:655256 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#98]at fd=107 - TcpConnection.cc:52
+2025/04/06 11:38:655270 INFO  func =>fd107events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:655280 INFO  HTTP Connection UP :127.0.0.1:54340 - main.cc:107
+2025/04/06 11:38:655287 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655351 INFO  fd total count:94 - EPollPoller.cc:32
+2025/04/06 11:38:655361 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:655365 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655379 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:655385 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#99]from %s127.0.0.1:54352 - TcpServer.cc:75
+2025/04/06 11:38:655396 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#99]at fd=108 - TcpConnection.cc:52
+2025/04/06 11:38:655411 INFO  func =>fd108events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:655421 INFO  HTTP Connection UP :127.0.0.1:54352 - main.cc:107
+2025/04/06 11:38:655428 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655492 INFO  fd total count:95 - EPollPoller.cc:32
+2025/04/06 11:38:655502 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:655506 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655521 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:655526 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#100]from %s127.0.0.1:54368 - TcpServer.cc:75
+2025/04/06 11:38:655537 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#100]at fd=109 - TcpConnection.cc:52
+2025/04/06 11:38:655549 INFO  func =>fd109events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:655574 INFO  HTTP Connection UP :127.0.0.1:54368 - main.cc:107
+2025/04/06 11:38:655582 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655644 INFO  fd total count:96 - EPollPoller.cc:32
+2025/04/06 11:38:655655 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:655659 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655674 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:655679 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#101]from %s127.0.0.1:54378 - TcpServer.cc:75
+2025/04/06 11:38:655691 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#101]at fd=110 - TcpConnection.cc:52
+2025/04/06 11:38:655704 INFO  func =>fd110events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:655714 INFO  HTTP Connection UP :127.0.0.1:54378 - main.cc:107
+2025/04/06 11:38:655721 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655783 INFO  fd total count:97 - EPollPoller.cc:32
+2025/04/06 11:38:655794 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:655798 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655813 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:655818 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#102]from %s127.0.0.1:54382 - TcpServer.cc:75
+2025/04/06 11:38:655837 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#102]at fd=111 - TcpConnection.cc:52
+2025/04/06 11:38:655852 INFO  func =>fd111events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:655862 INFO  HTTP Connection UP :127.0.0.1:54382 - main.cc:107
+2025/04/06 11:38:655869 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655935 INFO  fd total count:98 - EPollPoller.cc:32
+2025/04/06 11:38:655946 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:655950 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:655966 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:655972 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#103]from %s127.0.0.1:54390 - TcpServer.cc:75
+2025/04/06 11:38:655982 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#103]at fd=112 - TcpConnection.cc:52
+2025/04/06 11:38:655996 INFO  func =>fd112events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:656007 INFO  HTTP Connection UP :127.0.0.1:54390 - main.cc:107
+2025/04/06 11:38:656015 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656105 INFO  fd total count:99 - EPollPoller.cc:32
+2025/04/06 11:38:656117 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:656122 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656138 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:656143 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#104]from %s127.0.0.1:54402 - TcpServer.cc:75
+2025/04/06 11:38:656151 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#104]at fd=113 - TcpConnection.cc:52
+2025/04/06 11:38:656161 INFO  func =>fd113events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:656169 INFO  HTTP Connection UP :127.0.0.1:54402 - main.cc:107
+2025/04/06 11:38:656174 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656227 INFO  fd total count:100 - EPollPoller.cc:32
+2025/04/06 11:38:656237 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:656240 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656252 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:656255 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#105]from %s127.0.0.1:54414 - TcpServer.cc:75
+2025/04/06 11:38:656268 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#105]at fd=114 - TcpConnection.cc:52
+2025/04/06 11:38:656279 INFO  func =>fd114events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:656286 INFO  HTTP Connection UP :127.0.0.1:54414 - main.cc:107
+2025/04/06 11:38:656291 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656351 INFO  fd total count:101 - EPollPoller.cc:32
+2025/04/06 11:38:656359 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:656362 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656374 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:656377 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#106]from %s127.0.0.1:54420 - TcpServer.cc:75
+2025/04/06 11:38:656385 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#106]at fd=115 - TcpConnection.cc:52
+2025/04/06 11:38:656395 INFO  func =>fd115events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:656403 INFO  HTTP Connection UP :127.0.0.1:54420 - main.cc:107
+2025/04/06 11:38:656407 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656456 INFO  fd total count:102 - EPollPoller.cc:32
+2025/04/06 11:38:656464 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:656467 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656479 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:656482 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#107]from %s127.0.0.1:54436 - TcpServer.cc:75
+2025/04/06 11:38:656494 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#107]at fd=116 - TcpConnection.cc:52
+2025/04/06 11:38:656505 INFO  func =>fd116events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:656512 INFO  HTTP Connection UP :127.0.0.1:54436 - main.cc:107
+2025/04/06 11:38:656530 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656603 INFO  fd total count:103 - EPollPoller.cc:32
+2025/04/06 11:38:656615 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:656619 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656635 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 11:38:656640 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#108]from %s127.0.0.1:54442 - TcpServer.cc:75
+2025/04/06 11:38:656652 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#108]at fd=117 - TcpConnection.cc:52
+2025/04/06 11:38:656665 INFO  func =>fd117events=3index=-1 - EPollPoller.cc:66
+2025/04/06 11:38:656673 INFO  HTTP Connection UP :127.0.0.1:54442 - main.cc:107
+2025/04/06 11:38:656678 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656735 INFO  fd total count:104 - EPollPoller.cc:32
+2025/04/06 11:38:656745 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:656748 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:656797 INFO  fd total count:104 - EPollPoller.cc:32
+2025/04/06 11:38:978326 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:978362 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:990302 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:990339 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:994843 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:994858 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:643870 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:643906 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:643925 INFO  TcpConnection::handleClose fd=15state=2 - TcpConnection.cc:241
+2025/04/06 11:38:643932 INFO  func =>fd15events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:643943 INFO  HTTP Connection DOWN :127.0.0.1:53460 - main.cc:109
+2025/04/06 11:38:643957 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#9 - TcpServer.cc:114
+2025/04/06 11:38:643970 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:643976 INFO  TcpConnection::handleClose fd=16state=2 - TcpConnection.cc:241
+2025/04/06 11:38:643980 INFO  func =>fd16events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:643984 INFO  HTTP Connection DOWN :127.0.0.1:53458 - main.cc:109
+2025/04/06 11:38:643988 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#10 - TcpServer.cc:114
+2025/04/06 11:38:644010 INFO  removeChannel fd=15 - EPollPoller.cc:102
+2025/04/06 11:38:644014 INFO  removeChannel fd=16 - EPollPoller.cc:102
+2025/04/06 11:38:644017 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#9]at fd=15state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644051 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#10]at fd=16state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644070 INFO  fd total count:102 - EPollPoller.cc:32
+2025/04/06 11:38:644076 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644079 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644085 INFO  TcpConnection::handleClose fd=17state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644088 INFO  func =>fd17events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644092 INFO  HTTP Connection DOWN :127.0.0.1:53482 - main.cc:109
+2025/04/06 11:38:644098 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#11 - TcpServer.cc:114
+2025/04/06 11:38:644105 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644110 INFO  TcpConnection::handleClose fd=18state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644113 INFO  func =>fd18events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644117 INFO  HTTP Connection DOWN :127.0.0.1:53494 - main.cc:109
+2025/04/06 11:38:644121 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#12 - TcpServer.cc:114
+2025/04/06 11:38:644129 INFO  removeChannel fd=17 - EPollPoller.cc:102
+2025/04/06 11:38:644133 INFO  removeChannel fd=18 - EPollPoller.cc:102
+2025/04/06 11:38:644136 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#11]at fd=17state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644153 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#12]at fd=18state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644169 INFO  fd total count:100 - EPollPoller.cc:32
+2025/04/06 11:38:644174 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:644177 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644183 INFO  TcpConnection::handleClose fd=21state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644186 INFO  func =>fd21events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644191 INFO  HTTP Connection DOWN :127.0.0.1:53508 - main.cc:109
+2025/04/06 11:38:644196 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#13 - TcpServer.cc:114
+2025/04/06 11:38:644204 INFO  removeChannel fd=21 - EPollPoller.cc:102
+2025/04/06 11:38:644208 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#13]at fd=21state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644284 INFO  fd total count:99 - EPollPoller.cc:32
+2025/04/06 11:38:644295 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:644299 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644306 INFO  TcpConnection::handleClose fd=22state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644309 INFO  func =>fd22events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644314 INFO  HTTP Connection DOWN :127.0.0.1:53520 - main.cc:109
+2025/04/06 11:38:644320 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#14 - TcpServer.cc:114
+2025/04/06 11:38:644328 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644334 INFO  TcpConnection::handleClose fd=23state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644337 INFO  func =>fd23events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644341 INFO  HTTP Connection DOWN :127.0.0.1:53530 - main.cc:109
+2025/04/06 11:38:644344 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#15 - TcpServer.cc:114
+2025/04/06 11:38:644353 INFO  removeChannel fd=22 - EPollPoller.cc:102
+2025/04/06 11:38:644357 INFO  removeChannel fd=23 - EPollPoller.cc:102
+2025/04/06 11:38:644359 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#14]at fd=22state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644379 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#15]at fd=23state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644394 INFO  fd total count:97 - EPollPoller.cc:32
+2025/04/06 11:38:644399 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:644402 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644408 INFO  TcpConnection::handleClose fd=25state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644411 INFO  func =>fd25events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644416 INFO  HTTP Connection DOWN :127.0.0.1:53532 - main.cc:109
+2025/04/06 11:38:644421 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#16 - TcpServer.cc:114
+2025/04/06 11:38:644430 INFO  removeChannel fd=25 - EPollPoller.cc:102
+2025/04/06 11:38:644434 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#16]at fd=25state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644451 INFO  fd total count:96 - EPollPoller.cc:32
+2025/04/06 11:38:644456 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:644459 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644465 INFO  TcpConnection::handleClose fd=26state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644468 INFO  func =>fd26events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644472 INFO  HTTP Connection DOWN :127.0.0.1:53538 - main.cc:109
+2025/04/06 11:38:644477 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#17 - TcpServer.cc:114
+2025/04/06 11:38:644485 INFO  removeChannel fd=26 - EPollPoller.cc:102
+2025/04/06 11:38:644489 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#17]at fd=26state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644506 INFO  fd total count:95 - EPollPoller.cc:32
+2025/04/06 11:38:644812 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:644825 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644836 INFO  TcpConnection::handleClose fd=30state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644840 INFO  func =>fd30events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644846 INFO  HTTP Connection DOWN :127.0.0.1:53570 - main.cc:109
+2025/04/06 11:38:644853 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#21 - TcpServer.cc:114
+2025/04/06 11:38:644864 INFO  removeChannel fd=30 - EPollPoller.cc:102
+2025/04/06 11:38:644869 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#21]at fd=30state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644895 INFO  fd total count:94 - EPollPoller.cc:32
+2025/04/06 11:38:644901 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:644904 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644910 INFO  TcpConnection::handleClose fd=27state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644913 INFO  func =>fd27events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644918 INFO  HTTP Connection DOWN :127.0.0.1:53550 - main.cc:109
+2025/04/06 11:38:644923 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#18 - TcpServer.cc:114
+2025/04/06 11:38:644933 INFO  removeChannel fd=27 - EPollPoller.cc:102
+2025/04/06 11:38:644936 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#18]at fd=27state=0 - TcpConnection.cc:58
+2025/04/06 11:38:644954 INFO  fd total count:93 - EPollPoller.cc:32
+2025/04/06 11:38:644959 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:644962 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:644968 INFO  TcpConnection::handleClose fd=28state=2 - TcpConnection.cc:241
+2025/04/06 11:38:644971 INFO  func =>fd28events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:644975 INFO  HTTP Connection DOWN :127.0.0.1:53554 - main.cc:109
+2025/04/06 11:38:644980 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#19 - TcpServer.cc:114
+2025/04/06 11:38:644989 INFO  removeChannel fd=28 - EPollPoller.cc:102
+2025/04/06 11:38:644992 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#19]at fd=28state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645009 INFO  fd total count:92 - EPollPoller.cc:32
+2025/04/06 11:38:645040 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:645047 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645054 INFO  TcpConnection::handleClose fd=29state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645057 INFO  func =>fd29events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645062 INFO  HTTP Connection DOWN :127.0.0.1:53584 - main.cc:109
+2025/04/06 11:38:645068 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#20 - TcpServer.cc:114
+2025/04/06 11:38:645077 INFO  removeChannel fd=29 - EPollPoller.cc:102
+2025/04/06 11:38:645080 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#20]at fd=29state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645101 INFO  fd total count:91 - EPollPoller.cc:32
+2025/04/06 11:38:645246 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:645257 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645266 INFO  TcpConnection::handleClose fd=31state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645270 INFO  func =>fd31events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645276 INFO  HTTP Connection DOWN :127.0.0.1:53600 - main.cc:109
+2025/04/06 11:38:645282 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#22 - TcpServer.cc:114
+2025/04/06 11:38:645293 INFO  removeChannel fd=31 - EPollPoller.cc:102
+2025/04/06 11:38:645298 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#22]at fd=31state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645323 INFO  fd total count:90 - EPollPoller.cc:32
+2025/04/06 11:38:645329 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645332 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645338 INFO  TcpConnection::handleClose fd=34state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645341 INFO  func =>fd34events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645345 INFO  HTTP Connection DOWN :127.0.0.1:53638 - main.cc:109
+2025/04/06 11:38:645350 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#25 - TcpServer.cc:114
+2025/04/06 11:38:645357 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645363 INFO  TcpConnection::handleClose fd=32state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645365 INFO  func =>fd32events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645369 INFO  HTTP Connection DOWN :127.0.0.1:53616 - main.cc:109
+2025/04/06 11:38:645373 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#23 - TcpServer.cc:114
+2025/04/06 11:38:645381 INFO  removeChannel fd=34 - EPollPoller.cc:102
+2025/04/06 11:38:645385 INFO  removeChannel fd=32 - EPollPoller.cc:102
+2025/04/06 11:38:645387 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#25]at fd=34state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645405 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#23]at fd=32state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645420 INFO  fd total count:88 - EPollPoller.cc:32
+2025/04/06 11:38:645425 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:645428 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645433 INFO  TcpConnection::handleClose fd=33state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645436 INFO  func =>fd33events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645440 INFO  HTTP Connection DOWN :127.0.0.1:53626 - main.cc:109
+2025/04/06 11:38:645445 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#24 - TcpServer.cc:114
+2025/04/06 11:38:645453 INFO  removeChannel fd=33 - EPollPoller.cc:102
+2025/04/06 11:38:645457 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#24]at fd=33state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645474 INFO  fd total count:87 - EPollPoller.cc:32
+2025/04/06 11:38:645794 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:645806 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645815 INFO  TcpConnection::handleClose fd=38state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645819 INFO  func =>fd38events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645825 INFO  HTTP Connection DOWN :127.0.0.1:53672 - main.cc:109
+2025/04/06 11:38:645831 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#29 - TcpServer.cc:114
+2025/04/06 11:38:645840 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645846 INFO  TcpConnection::handleClose fd=36state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645849 INFO  func =>fd36events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645853 INFO  HTTP Connection DOWN :127.0.0.1:53658 - main.cc:109
+2025/04/06 11:38:645857 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#27 - TcpServer.cc:114
+2025/04/06 11:38:645866 INFO  removeChannel fd=38 - EPollPoller.cc:102
+2025/04/06 11:38:645870 INFO  removeChannel fd=36 - EPollPoller.cc:102
+2025/04/06 11:38:645873 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#29]at fd=38state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645898 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#27]at fd=36state=0 - TcpConnection.cc:58
+2025/04/06 11:38:645915 INFO  fd total count:85 - EPollPoller.cc:32
+2025/04/06 11:38:645921 INFO  events happend3 - EPollPoller.cc:40
+2025/04/06 11:38:645925 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645931 INFO  TcpConnection::handleClose fd=35state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645934 INFO  func =>fd35events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645938 INFO  HTTP Connection DOWN :127.0.0.1:53642 - main.cc:109
+2025/04/06 11:38:645943 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#26 - TcpServer.cc:114
+2025/04/06 11:38:645950 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645956 INFO  TcpConnection::handleClose fd=37state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645958 INFO  func =>fd37events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645962 INFO  HTTP Connection DOWN :127.0.0.1:53664 - main.cc:109
+2025/04/06 11:38:645966 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#28 - TcpServer.cc:114
+2025/04/06 11:38:645972 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:645977 INFO  TcpConnection::handleClose fd=39state=2 - TcpConnection.cc:241
+2025/04/06 11:38:645980 INFO  func =>fd39events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:645984 INFO  HTTP Connection DOWN :127.0.0.1:53684 - main.cc:109
+2025/04/06 11:38:645987 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#30 - TcpServer.cc:114
+2025/04/06 11:38:645995 INFO  removeChannel fd=35 - EPollPoller.cc:102
+2025/04/06 11:38:645998 INFO  removeChannel fd=37 - EPollPoller.cc:102
+2025/04/06 11:38:646001 INFO  removeChannel fd=39 - EPollPoller.cc:102
+2025/04/06 11:38:646004 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#26]at fd=35state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646022 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#28]at fd=37state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646037 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#30]at fd=39state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646051 INFO  fd total count:82 - EPollPoller.cc:32
+2025/04/06 11:38:646388 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646400 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646409 INFO  TcpConnection::handleClose fd=40state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646412 INFO  func =>fd40events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646418 INFO  HTTP Connection DOWN :127.0.0.1:53692 - main.cc:109
+2025/04/06 11:38:646425 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#31 - TcpServer.cc:114
+2025/04/06 11:38:646434 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646440 INFO  TcpConnection::handleClose fd=41state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646442 INFO  func =>fd41events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646447 INFO  HTTP Connection DOWN :127.0.0.1:53704 - main.cc:109
+2025/04/06 11:38:646451 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#32 - TcpServer.cc:114
+2025/04/06 11:38:646459 INFO  removeChannel fd=40 - EPollPoller.cc:102
+2025/04/06 11:38:646463 INFO  removeChannel fd=41 - EPollPoller.cc:102
+2025/04/06 11:38:646466 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#31]at fd=40state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646491 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#32]at fd=41state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646508 INFO  fd total count:80 - EPollPoller.cc:32
+2025/04/06 11:38:646514 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646518 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646524 INFO  TcpConnection::handleClose fd=42state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646527 INFO  func =>fd42events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646531 INFO  HTTP Connection DOWN :127.0.0.1:53712 - main.cc:109
+2025/04/06 11:38:646536 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#33 - TcpServer.cc:114
+2025/04/06 11:38:646543 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646548 INFO  TcpConnection::handleClose fd=43state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646551 INFO  func =>fd43events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646555 INFO  HTTP Connection DOWN :127.0.0.1:53716 - main.cc:109
+2025/04/06 11:38:646559 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#34 - TcpServer.cc:114
+2025/04/06 11:38:646566 INFO  removeChannel fd=42 - EPollPoller.cc:102
+2025/04/06 11:38:646570 INFO  removeChannel fd=43 - EPollPoller.cc:102
+2025/04/06 11:38:646573 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#33]at fd=42state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646589 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#34]at fd=43state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646604 INFO  fd total count:78 - EPollPoller.cc:32
+2025/04/06 11:38:646648 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:646660 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646669 INFO  TcpConnection::handleClose fd=44state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646672 INFO  func =>fd44events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646678 INFO  HTTP Connection DOWN :127.0.0.1:53722 - main.cc:109
+2025/04/06 11:38:646684 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#35 - TcpServer.cc:114
+2025/04/06 11:38:646695 INFO  removeChannel fd=44 - EPollPoller.cc:102
+2025/04/06 11:38:646699 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#35]at fd=44state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646746 INFO  fd total count:77 - EPollPoller.cc:32
+2025/04/06 11:38:646755 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:646759 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646766 INFO  TcpConnection::handleClose fd=46state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646769 INFO  func =>fd46events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646774 INFO  HTTP Connection DOWN :127.0.0.1:53734 - main.cc:109
+2025/04/06 11:38:646781 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#37 - TcpServer.cc:114
+2025/04/06 11:38:646791 INFO  removeChannel fd=46 - EPollPoller.cc:102
+2025/04/06 11:38:646795 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#37]at fd=46state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646813 INFO  fd total count:76 - EPollPoller.cc:32
+2025/04/06 11:38:646818 INFO  events happend2 - EPollPoller.cc:40
+2025/04/06 11:38:646821 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646828 INFO  TcpConnection::handleClose fd=45state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646830 INFO  func =>fd45events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646835 INFO  HTTP Connection DOWN :127.0.0.1:53732 - main.cc:109
+2025/04/06 11:38:646839 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#36 - TcpServer.cc:114
+2025/04/06 11:38:646846 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:646852 INFO  TcpConnection::handleClose fd=47state=2 - TcpConnection.cc:241
+2025/04/06 11:38:646855 INFO  func =>fd47events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:646859 INFO  HTTP Connection DOWN :127.0.0.1:53750 - main.cc:109
+2025/04/06 11:38:646863 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#38 - TcpServer.cc:114
+2025/04/06 11:38:646870 INFO  removeChannel fd=45 - EPollPoller.cc:102
+2025/04/06 11:38:646874 INFO  removeChannel fd=47 - EPollPoller.cc:102
+2025/04/06 11:38:646877 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#36]at fd=45state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646895 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#38]at fd=47state=0 - TcpConnection.cc:58
+2025/04/06 11:38:646911 INFO  fd total count:74 - EPollPoller.cc:32
+2025/04/06 11:38:647390 INFO  events happend3 - EPollPoller.cc:40
+2025/04/06 11:38:647402 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647411 INFO  TcpConnection::handleClose fd=49state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647415 INFO  func =>fd49events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647421 INFO  HTTP Connection DOWN :127.0.0.1:53758 - main.cc:109
+2025/04/06 11:38:647428 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#40 - TcpServer.cc:114
+2025/04/06 11:38:647436 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647442 INFO  TcpConnection::handleClose fd=48state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647445 INFO  func =>fd48events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647449 INFO  HTTP Connection DOWN :127.0.0.1:53754 - main.cc:109
+2025/04/06 11:38:647453 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#39 - TcpServer.cc:114
+2025/04/06 11:38:647460 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647465 INFO  TcpConnection::handleClose fd=50state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647468 INFO  func =>fd50events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647471 INFO  HTTP Connection DOWN :127.0.0.1:53764 - main.cc:109
+2025/04/06 11:38:647475 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#41 - TcpServer.cc:114
+2025/04/06 11:38:647483 INFO  removeChannel fd=49 - EPollPoller.cc:102
+2025/04/06 11:38:647487 INFO  removeChannel fd=48 - EPollPoller.cc:102
+2025/04/06 11:38:647490 INFO  removeChannel fd=50 - EPollPoller.cc:102
+2025/04/06 11:38:647493 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#40]at fd=49state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647537 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#39]at fd=48state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647553 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#41]at fd=50state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647569 INFO  fd total count:71 - EPollPoller.cc:32
+2025/04/06 11:38:647575 INFO  events happend3 - EPollPoller.cc:40
+2025/04/06 11:38:647578 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647585 INFO  TcpConnection::handleClose fd=51state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647588 INFO  func =>fd51events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647593 INFO  HTTP Connection DOWN :127.0.0.1:53774 - main.cc:109
+2025/04/06 11:38:647598 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#42 - TcpServer.cc:114
+2025/04/06 11:38:647605 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647611 INFO  TcpConnection::handleClose fd=53state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647614 INFO  func =>fd53events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647618 INFO  HTTP Connection DOWN :127.0.0.1:53794 - main.cc:109
+2025/04/06 11:38:647621 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#44 - TcpServer.cc:114
+2025/04/06 11:38:647627 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647633 INFO  TcpConnection::handleClose fd=52state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647635 INFO  func =>fd52events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647639 INFO  HTTP Connection DOWN :127.0.0.1:53788 - main.cc:109
+2025/04/06 11:38:647643 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#43 - TcpServer.cc:114
+2025/04/06 11:38:647650 INFO  removeChannel fd=51 - EPollPoller.cc:102
+2025/04/06 11:38:647654 INFO  removeChannel fd=53 - EPollPoller.cc:102
+2025/04/06 11:38:647657 INFO  removeChannel fd=52 - EPollPoller.cc:102
+2025/04/06 11:38:647660 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#42]at fd=51state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647677 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#44]at fd=53state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647722 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#43]at fd=52state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647742 INFO  fd total count:68 - EPollPoller.cc:32
+2025/04/06 11:38:647749 INFO  events happend4 - EPollPoller.cc:40
+2025/04/06 11:38:647752 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647759 INFO  TcpConnection::handleClose fd=54state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647762 INFO  func =>fd54events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647766 INFO  HTTP Connection DOWN :127.0.0.1:53804 - main.cc:109
+2025/04/06 11:38:647772 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#45 - TcpServer.cc:114
+2025/04/06 11:38:647779 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647785 INFO  TcpConnection::handleClose fd=55state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647787 INFO  func =>fd55events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647791 INFO  HTTP Connection DOWN :127.0.0.1:53814 - main.cc:109
+2025/04/06 11:38:647795 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#46 - TcpServer.cc:114
+2025/04/06 11:38:647801 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647806 INFO  TcpConnection::handleClose fd=56state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647809 INFO  func =>fd56events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647813 INFO  HTTP Connection DOWN :127.0.0.1:53828 - main.cc:109
+2025/04/06 11:38:647816 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#47 - TcpServer.cc:114
+2025/04/06 11:38:647822 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647828 INFO  TcpConnection::handleClose fd=57state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647830 INFO  func =>fd57events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647834 INFO  HTTP Connection DOWN :127.0.0.1:53838 - main.cc:109
+2025/04/06 11:38:647838 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#48 - TcpServer.cc:114
+2025/04/06 11:38:647845 INFO  removeChannel fd=54 - EPollPoller.cc:102
+2025/04/06 11:38:647848 INFO  removeChannel fd=55 - EPollPoller.cc:102
+2025/04/06 11:38:647851 INFO  removeChannel fd=56 - EPollPoller.cc:102
+2025/04/06 11:38:647854 INFO  removeChannel fd=57 - EPollPoller.cc:102
+2025/04/06 11:38:647857 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#45]at fd=54state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647897 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#46]at fd=55state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647917 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#47]at fd=56state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647930 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#48]at fd=57state=0 - TcpConnection.cc:58
+2025/04/06 11:38:647946 INFO  fd total count:64 - EPollPoller.cc:32
+2025/04/06 11:38:647952 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:647955 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:647961 INFO  TcpConnection::handleClose fd=58state=2 - TcpConnection.cc:241
+2025/04/06 11:38:647964 INFO  func =>fd58events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:647969 INFO  HTTP Connection DOWN :127.0.0.1:53850 - main.cc:109
+2025/04/06 11:38:647974 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#49 - TcpServer.cc:114
+2025/04/06 11:38:647983 INFO  removeChannel fd=58 - EPollPoller.cc:102
+2025/04/06 11:38:647987 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#49]at fd=58state=0 - TcpConnection.cc:58
+2025/04/06 11:38:648004 INFO  fd total count:63 - EPollPoller.cc:32
+2025/04/06 11:38:648009 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:648012 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648018 INFO  TcpConnection::handleClose fd=59state=2 - TcpConnection.cc:241
+2025/04/06 11:38:648021 INFO  func =>fd59events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:648025 INFO  HTTP Connection DOWN :127.0.0.1:53862 - main.cc:109
+2025/04/06 11:38:648029 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#50 - TcpServer.cc:114
+2025/04/06 11:38:648037 INFO  removeChannel fd=59 - EPollPoller.cc:102
+2025/04/06 11:38:648041 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#50]at fd=59state=0 - TcpConnection.cc:58
+2025/04/06 11:38:648057 INFO  fd total count:62 - EPollPoller.cc:32
+2025/04/06 11:38:648094 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:648104 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648112 INFO  TcpConnection::handleClose fd=60state=2 - TcpConnection.cc:241
+2025/04/06 11:38:648115 INFO  func =>fd60events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:648120 INFO  HTTP Connection DOWN :127.0.0.1:53878 - main.cc:109
+2025/04/06 11:38:648126 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#51 - TcpServer.cc:114
+2025/04/06 11:38:648136 INFO  removeChannel fd=60 - EPollPoller.cc:102
+2025/04/06 11:38:648140 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#51]at fd=60state=0 - TcpConnection.cc:58
+2025/04/06 11:38:648161 INFO  fd total count:61 - EPollPoller.cc:32
+2025/04/06 11:38:648272 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:648283 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648292 INFO  TcpConnection::handleClose fd=61state=2 - TcpConnection.cc:241
+2025/04/06 11:38:648296 INFO  func =>fd61events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:648302 INFO  HTTP Connection DOWN :127.0.0.1:53888 - main.cc:109
+2025/04/06 11:38:648308 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#52 - TcpServer.cc:114
+2025/04/06 11:38:648319 INFO  removeChannel fd=61 - EPollPoller.cc:102
+2025/04/06 11:38:648323 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#52]at fd=61state=0 - TcpConnection.cc:58
+2025/04/06 11:38:648348 INFO  fd total count:60 - EPollPoller.cc:32
+2025/04/06 11:38:648822 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:648833 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:648843 INFO  TcpConnection::handleClose fd=62state=2 - TcpConnection.cc:241
+2025/04/06 11:38:648847 INFO  func =>fd62events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:648853 INFO  HTTP Connection DOWN :127.0.0.1:53902 - main.cc:109
+2025/04/06 11:38:648860 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#53 - TcpServer.cc:114
+2025/04/06 11:38:648871 INFO  removeChannel fd=62 - EPollPoller.cc:102
+2025/04/06 11:38:648875 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#53]at fd=62state=0 - TcpConnection.cc:58
+2025/04/06 11:38:648899 INFO  fd total count:59 - EPollPoller.cc:32
+2025/04/06 11:38:649347 INFO  events happend3 - EPollPoller.cc:40
+2025/04/06 11:38:649377 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649397 INFO  TcpConnection::handleClose fd=64state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649405 INFO  func =>fd64events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649438 INFO  HTTP Connection DOWN :127.0.0.1:53908 - main.cc:109
+2025/04/06 11:38:649456 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#55 - TcpServer.cc:114
+2025/04/06 11:38:649473 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649484 INFO  TcpConnection::handleClose fd=63state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649489 INFO  func =>fd63events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649495 INFO  HTTP Connection DOWN :127.0.0.1:53906 - main.cc:109
+2025/04/06 11:38:649502 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#54 - TcpServer.cc:114
+2025/04/06 11:38:649512 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649521 INFO  TcpConnection::handleClose fd=65state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649526 INFO  func =>fd65events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649533 INFO  HTTP Connection DOWN :127.0.0.1:53924 - main.cc:109
+2025/04/06 11:38:649539 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#56 - TcpServer.cc:114
+2025/04/06 11:38:649555 INFO  removeChannel fd=64 - EPollPoller.cc:102
+2025/04/06 11:38:649563 INFO  removeChannel fd=63 - EPollPoller.cc:102
+2025/04/06 11:38:649568 INFO  removeChannel fd=65 - EPollPoller.cc:102
+2025/04/06 11:38:649574 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#55]at fd=64state=0 - TcpConnection.cc:58
+2025/04/06 11:38:649614 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#54]at fd=63state=0 - TcpConnection.cc:58
+2025/04/06 11:38:649641 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#56]at fd=65state=0 - TcpConnection.cc:58
+2025/04/06 11:38:649668 INFO  fd total count:56 - EPollPoller.cc:32
+2025/04/06 11:38:649678 INFO  events happend3 - EPollPoller.cc:40
+2025/04/06 11:38:649683 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649710 INFO  TcpConnection::handleClose fd=67state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649718 INFO  func =>fd67events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649726 INFO  HTTP Connection DOWN :127.0.0.1:53946 - main.cc:109
+2025/04/06 11:38:649734 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#58 - TcpServer.cc:114
+2025/04/06 11:38:649744 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649752 INFO  TcpConnection::handleClose fd=66state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649756 INFO  func =>fd66events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649762 INFO  HTTP Connection DOWN :127.0.0.1:53940 - main.cc:109
+2025/04/06 11:38:649768 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#57 - TcpServer.cc:114
+2025/04/06 11:38:649777 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649786 INFO  TcpConnection::handleClose fd=69state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649791 INFO  func =>fd69events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649798 INFO  HTTP Connection DOWN :127.0.0.1:53962 - main.cc:109
+2025/04/06 11:38:649805 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#60 - TcpServer.cc:114
+2025/04/06 11:38:649818 INFO  removeChannel fd=67 - EPollPoller.cc:102
+2025/04/06 11:38:649824 INFO  removeChannel fd=66 - EPollPoller.cc:102
+2025/04/06 11:38:649829 INFO  removeChannel fd=69 - EPollPoller.cc:102
+2025/04/06 11:38:649834 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#58]at fd=67state=0 - TcpConnection.cc:58
+2025/04/06 11:38:649862 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#57]at fd=66state=0 - TcpConnection.cc:58
+2025/04/06 11:38:649888 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#60]at fd=69state=0 - TcpConnection.cc:58
+2025/04/06 11:38:649912 INFO  fd total count:53 - EPollPoller.cc:32
+2025/04/06 11:38:649921 INFO  events happend4 - EPollPoller.cc:40
+2025/04/06 11:38:649926 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649935 INFO  TcpConnection::handleClose fd=71state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649940 INFO  func =>fd71events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649946 INFO  HTTP Connection DOWN :127.0.0.1:53986 - main.cc:109
+2025/04/06 11:38:649954 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#62 - TcpServer.cc:114
+2025/04/06 11:38:649966 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:649975 INFO  TcpConnection::handleClose fd=68state=2 - TcpConnection.cc:241
+2025/04/06 11:38:649981 INFO  func =>fd68events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:649987 INFO  HTTP Connection DOWN :127.0.0.1:53950 - main.cc:109
+2025/04/06 11:38:649994 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#59 - TcpServer.cc:114
+2025/04/06 11:38:650004 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650013 INFO  TcpConnection::handleClose fd=70state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650018 INFO  func =>fd70events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650024 INFO  HTTP Connection DOWN :127.0.0.1:53974 - main.cc:109
+2025/04/06 11:38:650030 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#61 - TcpServer.cc:114
+2025/04/06 11:38:650039 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650047 INFO  TcpConnection::handleClose fd=74state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650052 INFO  func =>fd74events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650059 INFO  HTTP Connection DOWN :127.0.0.1:54016 - main.cc:109
+2025/04/06 11:38:650065 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#65 - TcpServer.cc:114
+2025/04/06 11:38:650075 INFO  removeChannel fd=71 - EPollPoller.cc:102
+2025/04/06 11:38:650081 INFO  removeChannel fd=68 - EPollPoller.cc:102
+2025/04/06 11:38:650086 INFO  removeChannel fd=70 - EPollPoller.cc:102
+2025/04/06 11:38:650091 INFO  removeChannel fd=74 - EPollPoller.cc:102
+2025/04/06 11:38:650095 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#62]at fd=71state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650121 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#59]at fd=68state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650146 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#61]at fd=70state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650171 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#65]at fd=74state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650244 INFO  fd total count:49 - EPollPoller.cc:32
+2025/04/06 11:38:650258 INFO  events happend6 - EPollPoller.cc:40
+2025/04/06 11:38:650266 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650276 INFO  TcpConnection::handleClose fd=75state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650281 INFO  func =>fd75events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650288 INFO  HTTP Connection DOWN :127.0.0.1:54028 - main.cc:109
+2025/04/06 11:38:650297 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#66 - TcpServer.cc:114
+2025/04/06 11:38:650308 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650319 INFO  TcpConnection::handleClose fd=72state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650323 INFO  func =>fd72events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650329 INFO  HTTP Connection DOWN :127.0.0.1:53990 - main.cc:109
+2025/04/06 11:38:650336 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#63 - TcpServer.cc:114
+2025/04/06 11:38:650346 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650353 INFO  TcpConnection::handleClose fd=77state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650357 INFO  func =>fd77events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650363 INFO  HTTP Connection DOWN :127.0.0.1:54044 - main.cc:109
+2025/04/06 11:38:650370 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#68 - TcpServer.cc:114
+2025/04/06 11:38:650379 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650388 INFO  TcpConnection::handleClose fd=73state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650392 INFO  func =>fd73events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650398 INFO  HTTP Connection DOWN :127.0.0.1:54006 - main.cc:109
+2025/04/06 11:38:650404 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#64 - TcpServer.cc:114
+2025/04/06 11:38:650412 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650421 INFO  TcpConnection::handleClose fd=78state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650426 INFO  func =>fd78events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650432 INFO  HTTP Connection DOWN :127.0.0.1:54058 - main.cc:109
+2025/04/06 11:38:650438 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#69 - TcpServer.cc:114
+2025/04/06 11:38:650454 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650463 INFO  TcpConnection::handleClose fd=79state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650468 INFO  func =>fd79events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650474 INFO  HTTP Connection DOWN :127.0.0.1:54060 - main.cc:109
+2025/04/06 11:38:650480 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#70 - TcpServer.cc:114
+2025/04/06 11:38:650491 INFO  removeChannel fd=75 - EPollPoller.cc:102
+2025/04/06 11:38:650497 INFO  removeChannel fd=72 - EPollPoller.cc:102
+2025/04/06 11:38:650502 INFO  removeChannel fd=77 - EPollPoller.cc:102
+2025/04/06 11:38:650507 INFO  removeChannel fd=73 - EPollPoller.cc:102
+2025/04/06 11:38:650512 INFO  removeChannel fd=78 - EPollPoller.cc:102
+2025/04/06 11:38:650516 INFO  removeChannel fd=79 - EPollPoller.cc:102
+2025/04/06 11:38:650521 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#66]at fd=75state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650548 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#63]at fd=72state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650571 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#68]at fd=77state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650595 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#64]at fd=73state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650617 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#69]at fd=78state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650640 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#70]at fd=79state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650665 INFO  fd total count:43 - EPollPoller.cc:32
+2025/04/06 11:38:650687 INFO  events happend6 - EPollPoller.cc:40
+2025/04/06 11:38:650693 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650701 INFO  TcpConnection::handleClose fd=76state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650705 INFO  func =>fd76events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650710 INFO  HTTP Connection DOWN :127.0.0.1:54040 - main.cc:109
+2025/04/06 11:38:650716 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#67 - TcpServer.cc:114
+2025/04/06 11:38:650724 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650731 INFO  TcpConnection::handleClose fd=82state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650735 INFO  func =>fd82events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650741 INFO  HTTP Connection DOWN :127.0.0.1:54088 - main.cc:109
+2025/04/06 11:38:650747 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#73 - TcpServer.cc:114
+2025/04/06 11:38:650756 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650763 INFO  TcpConnection::handleClose fd=81state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650766 INFO  func =>fd81events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650770 INFO  HTTP Connection DOWN :127.0.0.1:54076 - main.cc:109
+2025/04/06 11:38:650774 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#72 - TcpServer.cc:114
+2025/04/06 11:38:650780 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650786 INFO  TcpConnection::handleClose fd=80state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650789 INFO  func =>fd80events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650792 INFO  HTTP Connection DOWN :127.0.0.1:54074 - main.cc:109
+2025/04/06 11:38:650796 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#71 - TcpServer.cc:114
+2025/04/06 11:38:650801 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650806 INFO  TcpConnection::handleClose fd=83state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650809 INFO  func =>fd83events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650813 INFO  HTTP Connection DOWN :127.0.0.1:54102 - main.cc:109
+2025/04/06 11:38:650816 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#74 - TcpServer.cc:114
+2025/04/06 11:38:650822 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:650827 INFO  TcpConnection::handleClose fd=84state=2 - TcpConnection.cc:241
+2025/04/06 11:38:650830 INFO  func =>fd84events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:650833 INFO  HTTP Connection DOWN :127.0.0.1:54106 - main.cc:109
+2025/04/06 11:38:650837 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#75 - TcpServer.cc:114
+2025/04/06 11:38:650844 INFO  removeChannel fd=76 - EPollPoller.cc:102
+2025/04/06 11:38:650848 INFO  removeChannel fd=82 - EPollPoller.cc:102
+2025/04/06 11:38:650851 INFO  removeChannel fd=81 - EPollPoller.cc:102
+2025/04/06 11:38:650854 INFO  removeChannel fd=80 - EPollPoller.cc:102
+2025/04/06 11:38:650857 INFO  removeChannel fd=83 - EPollPoller.cc:102
+2025/04/06 11:38:650860 INFO  removeChannel fd=84 - EPollPoller.cc:102
+2025/04/06 11:38:650863 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#67]at fd=76state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650884 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#73]at fd=82state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650902 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#72]at fd=81state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650918 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#71]at fd=80state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650932 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#74]at fd=83state=0 - TcpConnection.cc:58
+2025/04/06 11:38:650985 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#75]at fd=84state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651034 INFO  fd total count:37 - EPollPoller.cc:32
+2025/04/06 11:38:651044 INFO  events happend6 - EPollPoller.cc:40
+2025/04/06 11:38:651048 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651055 INFO  TcpConnection::handleClose fd=86state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651058 INFO  func =>fd86events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651063 INFO  HTTP Connection DOWN :127.0.0.1:54124 - main.cc:109
+2025/04/06 11:38:651069 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#77 - TcpServer.cc:114
+2025/04/06 11:38:651077 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651083 INFO  TcpConnection::handleClose fd=85state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651086 INFO  func =>fd85events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651090 INFO  HTTP Connection DOWN :127.0.0.1:54118 - main.cc:109
+2025/04/06 11:38:651094 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#76 - TcpServer.cc:114
+2025/04/06 11:38:651099 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651105 INFO  TcpConnection::handleClose fd=88state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651108 INFO  func =>fd88events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651112 INFO  HTTP Connection DOWN :127.0.0.1:54150 - main.cc:109
+2025/04/06 11:38:651115 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#79 - TcpServer.cc:114
+2025/04/06 11:38:651121 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651126 INFO  TcpConnection::handleClose fd=90state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651129 INFO  func =>fd90events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651133 INFO  HTTP Connection DOWN :127.0.0.1:54174 - main.cc:109
+2025/04/06 11:38:651137 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#81 - TcpServer.cc:114
+2025/04/06 11:38:651142 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651147 INFO  TcpConnection::handleClose fd=91state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651150 INFO  func =>fd91events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651154 INFO  HTTP Connection DOWN :127.0.0.1:54190 - main.cc:109
+2025/04/06 11:38:651157 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#82 - TcpServer.cc:114
+2025/04/06 11:38:651163 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651206 INFO  TcpConnection::handleClose fd=87state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651213 INFO  func =>fd87events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651218 INFO  HTTP Connection DOWN :127.0.0.1:54136 - main.cc:109
+2025/04/06 11:38:651223 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#78 - TcpServer.cc:114
+2025/04/06 11:38:651232 INFO  removeChannel fd=86 - EPollPoller.cc:102
+2025/04/06 11:38:651235 INFO  removeChannel fd=85 - EPollPoller.cc:102
+2025/04/06 11:38:651238 INFO  removeChannel fd=88 - EPollPoller.cc:102
+2025/04/06 11:38:651241 INFO  removeChannel fd=90 - EPollPoller.cc:102
+2025/04/06 11:38:651244 INFO  removeChannel fd=91 - EPollPoller.cc:102
+2025/04/06 11:38:651247 INFO  removeChannel fd=87 - EPollPoller.cc:102
+2025/04/06 11:38:651250 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#77]at fd=86state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651271 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#76]at fd=85state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651286 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#79]at fd=88state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651301 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#81]at fd=90state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651315 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#82]at fd=91state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651329 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#78]at fd=87state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651343 INFO  fd total count:31 - EPollPoller.cc:32
+2025/04/06 11:38:651349 INFO  events happend4 - EPollPoller.cc:40
+2025/04/06 11:38:651353 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651359 INFO  TcpConnection::handleClose fd=89state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651362 INFO  func =>fd89events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651366 INFO  HTTP Connection DOWN :127.0.0.1:54160 - main.cc:109
+2025/04/06 11:38:651371 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#80 - TcpServer.cc:114
+2025/04/06 11:38:651378 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651384 INFO  TcpConnection::handleClose fd=92state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651387 INFO  func =>fd92events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651391 INFO  HTTP Connection DOWN :127.0.0.1:54220 - main.cc:109
+2025/04/06 11:38:651395 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#83 - TcpServer.cc:114
+2025/04/06 11:38:651400 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651406 INFO  TcpConnection::handleClose fd=93state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651409 INFO  func =>fd93events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651413 INFO  HTTP Connection DOWN :127.0.0.1:54206 - main.cc:109
+2025/04/06 11:38:651416 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#84 - TcpServer.cc:114
+2025/04/06 11:38:651422 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651427 INFO  TcpConnection::handleClose fd=94state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651430 INFO  func =>fd94events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651434 INFO  HTTP Connection DOWN :127.0.0.1:54226 - main.cc:109
+2025/04/06 11:38:651437 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#85 - TcpServer.cc:114
+2025/04/06 11:38:651444 INFO  removeChannel fd=89 - EPollPoller.cc:102
+2025/04/06 11:38:651448 INFO  removeChannel fd=92 - EPollPoller.cc:102
+2025/04/06 11:38:651451 INFO  removeChannel fd=93 - EPollPoller.cc:102
+2025/04/06 11:38:651454 INFO  removeChannel fd=94 - EPollPoller.cc:102
+2025/04/06 11:38:651457 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#80]at fd=89state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651474 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#83]at fd=92state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651490 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#84]at fd=93state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651504 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#85]at fd=94state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651519 INFO  fd total count:27 - EPollPoller.cc:32
+2025/04/06 11:38:651524 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:651527 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651533 INFO  TcpConnection::handleClose fd=95state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651536 INFO  func =>fd95events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651540 INFO  HTTP Connection DOWN :127.0.0.1:54234 - main.cc:109
+2025/04/06 11:38:651545 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#86 - TcpServer.cc:114
+2025/04/06 11:38:651554 INFO  removeChannel fd=95 - EPollPoller.cc:102
+2025/04/06 11:38:651558 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#86]at fd=95state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651575 INFO  fd total count:26 - EPollPoller.cc:32
+2025/04/06 11:38:651728 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:651738 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651746 INFO  TcpConnection::handleClose fd=96state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651749 INFO  func =>fd96events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651754 INFO  HTTP Connection DOWN :127.0.0.1:54238 - main.cc:109
+2025/04/06 11:38:651761 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#87 - TcpServer.cc:114
+2025/04/06 11:38:651770 INFO  removeChannel fd=96 - EPollPoller.cc:102
+2025/04/06 11:38:651774 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#87]at fd=96state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651795 INFO  fd total count:25 - EPollPoller.cc:32
+2025/04/06 11:38:651801 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:651804 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651810 INFO  TcpConnection::handleClose fd=97state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651813 INFO  func =>fd97events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651817 INFO  HTTP Connection DOWN :127.0.0.1:54246 - main.cc:109
+2025/04/06 11:38:651822 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#88 - TcpServer.cc:114
+2025/04/06 11:38:651830 INFO  removeChannel fd=97 - EPollPoller.cc:102
+2025/04/06 11:38:651834 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#88]at fd=97state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651852 INFO  fd total count:24 - EPollPoller.cc:32
+2025/04/06 11:38:651916 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:651924 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:651931 INFO  TcpConnection::handleClose fd=98state=2 - TcpConnection.cc:241
+2025/04/06 11:38:651935 INFO  func =>fd98events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:651940 INFO  HTTP Connection DOWN :127.0.0.1:54260 - main.cc:109
+2025/04/06 11:38:651945 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#89 - TcpServer.cc:114
+2025/04/06 11:38:651955 INFO  removeChannel fd=98 - EPollPoller.cc:102
+2025/04/06 11:38:651959 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#89]at fd=98state=0 - TcpConnection.cc:58
+2025/04/06 11:38:651979 INFO  fd total count:23 - EPollPoller.cc:32
+2025/04/06 11:38:652249 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:652258 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652266 INFO  TcpConnection::handleClose fd=99state=2 - TcpConnection.cc:241
+2025/04/06 11:38:652270 INFO  func =>fd99events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:652275 INFO  HTTP Connection DOWN :127.0.0.1:54268 - main.cc:109
+2025/04/06 11:38:652281 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#90 - TcpServer.cc:114
+2025/04/06 11:38:652290 INFO  removeChannel fd=99 - EPollPoller.cc:102
+2025/04/06 11:38:652294 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#90]at fd=99state=0 - TcpConnection.cc:58
+2025/04/06 11:38:652316 INFO  fd total count:22 - EPollPoller.cc:32
+2025/04/06 11:38:652322 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:652325 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652331 INFO  TcpConnection::handleClose fd=100state=2 - TcpConnection.cc:241
+2025/04/06 11:38:652334 INFO  func =>fd100events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:652338 INFO  HTTP Connection DOWN :127.0.0.1:54270 - main.cc:109
+2025/04/06 11:38:652343 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#91 - TcpServer.cc:114
+2025/04/06 11:38:652352 INFO  removeChannel fd=100 - EPollPoller.cc:102
+2025/04/06 11:38:652355 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#91]at fd=100state=0 - TcpConnection.cc:58
+2025/04/06 11:38:652373 INFO  fd total count:21 - EPollPoller.cc:32
+2025/04/06 11:38:652378 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:652381 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652387 INFO  TcpConnection::handleClose fd=101state=2 - TcpConnection.cc:241
+2025/04/06 11:38:652390 INFO  func =>fd101events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:652394 INFO  HTTP Connection DOWN :127.0.0.1:54282 - main.cc:109
+2025/04/06 11:38:652399 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#92 - TcpServer.cc:114
+2025/04/06 11:38:652408 INFO  removeChannel fd=101 - EPollPoller.cc:102
+2025/04/06 11:38:652412 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#92]at fd=101state=0 - TcpConnection.cc:58
+2025/04/06 11:38:652429 INFO  fd total count:20 - EPollPoller.cc:32
+2025/04/06 11:38:652499 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:652509 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652517 INFO  TcpConnection::handleClose fd=102state=2 - TcpConnection.cc:241
+2025/04/06 11:38:652521 INFO  func =>fd102events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:652525 INFO  HTTP Connection DOWN :127.0.0.1:54290 - main.cc:109
+2025/04/06 11:38:652532 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#93 - TcpServer.cc:114
+2025/04/06 11:38:652541 INFO  removeChannel fd=102 - EPollPoller.cc:102
+2025/04/06 11:38:652545 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#93]at fd=102state=0 - TcpConnection.cc:58
+2025/04/06 11:38:652566 INFO  fd total count:19 - EPollPoller.cc:32
+2025/04/06 11:38:652652 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:652670 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652678 INFO  TcpConnection::handleClose fd=103state=2 - TcpConnection.cc:241
+2025/04/06 11:38:652682 INFO  func =>fd103events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:652687 INFO  HTTP Connection DOWN :127.0.0.1:54296 - main.cc:109
+2025/04/06 11:38:652693 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#94 - TcpServer.cc:114
+2025/04/06 11:38:652702 INFO  removeChannel fd=103 - EPollPoller.cc:102
+2025/04/06 11:38:652706 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#94]at fd=103state=0 - TcpConnection.cc:58
+2025/04/06 11:38:652727 INFO  fd total count:18 - EPollPoller.cc:32
+2025/04/06 11:38:652738 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:652742 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:652749 INFO  TcpConnection::handleClose fd=104state=2 - TcpConnection.cc:241
+2025/04/06 11:38:652752 INFO  func =>fd104events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:652756 INFO  HTTP Connection DOWN :127.0.0.1:54310 - main.cc:109
+2025/04/06 11:38:652761 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#95 - TcpServer.cc:114
+2025/04/06 11:38:652770 INFO  removeChannel fd=104 - EPollPoller.cc:102
+2025/04/06 11:38:652773 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#95]at fd=104state=0 - TcpConnection.cc:58
+2025/04/06 11:38:652791 INFO  fd total count:17 - EPollPoller.cc:32
+2025/04/06 11:38:653260 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653269 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653277 INFO  TcpConnection::handleClose fd=106state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653280 INFO  func =>fd106events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653286 INFO  HTTP Connection DOWN :127.0.0.1:54330 - main.cc:109
+2025/04/06 11:38:653291 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#97 - TcpServer.cc:114
+2025/04/06 11:38:653301 INFO  removeChannel fd=106 - EPollPoller.cc:102
+2025/04/06 11:38:653305 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#97]at fd=106state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653326 INFO  fd total count:16 - EPollPoller.cc:32
+2025/04/06 11:38:653332 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653335 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653341 INFO  TcpConnection::handleClose fd=108state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653344 INFO  func =>fd108events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653348 INFO  HTTP Connection DOWN :127.0.0.1:54352 - main.cc:109
+2025/04/06 11:38:653353 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#99 - TcpServer.cc:114
+2025/04/06 11:38:653361 INFO  removeChannel fd=108 - EPollPoller.cc:102
+2025/04/06 11:38:653365 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#99]at fd=108state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653382 INFO  fd total count:15 - EPollPoller.cc:32
+2025/04/06 11:38:653388 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653391 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653397 INFO  TcpConnection::handleClose fd=110state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653400 INFO  func =>fd110events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653404 INFO  HTTP Connection DOWN :127.0.0.1:54378 - main.cc:109
+2025/04/06 11:38:653409 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#101 - TcpServer.cc:114
+2025/04/06 11:38:653417 INFO  removeChannel fd=110 - EPollPoller.cc:102
+2025/04/06 11:38:653420 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#101]at fd=110state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653441 INFO  fd total count:14 - EPollPoller.cc:32
+2025/04/06 11:38:653448 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653452 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653460 INFO  TcpConnection::handleClose fd=105state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653464 INFO  func =>fd105events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653469 INFO  HTTP Connection DOWN :127.0.0.1:54320 - main.cc:109
+2025/04/06 11:38:653474 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#96 - TcpServer.cc:114
+2025/04/06 11:38:653483 INFO  removeChannel fd=105 - EPollPoller.cc:102
+2025/04/06 11:38:653486 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#96]at fd=105state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653504 INFO  fd total count:13 - EPollPoller.cc:32
+2025/04/06 11:38:653510 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653513 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653519 INFO  TcpConnection::handleClose fd=111state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653522 INFO  func =>fd111events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653526 INFO  HTTP Connection DOWN :127.0.0.1:54382 - main.cc:109
+2025/04/06 11:38:653531 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#102 - TcpServer.cc:114
+2025/04/06 11:38:653539 INFO  removeChannel fd=111 - EPollPoller.cc:102
+2025/04/06 11:38:653542 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#102]at fd=111state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653560 INFO  fd total count:12 - EPollPoller.cc:32
+2025/04/06 11:38:653565 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653568 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653574 INFO  TcpConnection::handleClose fd=107state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653577 INFO  func =>fd107events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653581 INFO  HTTP Connection DOWN :127.0.0.1:54340 - main.cc:109
+2025/04/06 11:38:653585 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#98 - TcpServer.cc:114
+2025/04/06 11:38:653593 INFO  removeChannel fd=107 - EPollPoller.cc:102
+2025/04/06 11:38:653597 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#98]at fd=107state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653614 INFO  fd total count:11 - EPollPoller.cc:32
+2025/04/06 11:38:653619 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653622 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653628 INFO  TcpConnection::handleClose fd=109state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653631 INFO  func =>fd109events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653635 INFO  HTTP Connection DOWN :127.0.0.1:54368 - main.cc:109
+2025/04/06 11:38:653640 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#100 - TcpServer.cc:114
+2025/04/06 11:38:653661 INFO  removeChannel fd=109 - EPollPoller.cc:102
+2025/04/06 11:38:653668 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#100]at fd=109state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653689 INFO  fd total count:10 - EPollPoller.cc:32
+2025/04/06 11:38:653694 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653697 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653704 INFO  TcpConnection::handleClose fd=113state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653707 INFO  func =>fd113events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653711 INFO  HTTP Connection DOWN :127.0.0.1:54402 - main.cc:109
+2025/04/06 11:38:653717 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#104 - TcpServer.cc:114
+2025/04/06 11:38:653725 INFO  removeChannel fd=113 - EPollPoller.cc:102
+2025/04/06 11:38:653729 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#104]at fd=113state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653746 INFO  fd total count:9 - EPollPoller.cc:32
+2025/04/06 11:38:653751 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653754 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653760 INFO  TcpConnection::handleClose fd=112state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653763 INFO  func =>fd112events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653767 INFO  HTTP Connection DOWN :127.0.0.1:54390 - main.cc:109
+2025/04/06 11:38:653772 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#103 - TcpServer.cc:114
+2025/04/06 11:38:653780 INFO  removeChannel fd=112 - EPollPoller.cc:102
+2025/04/06 11:38:653784 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#103]at fd=112state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653801 INFO  fd total count:8 - EPollPoller.cc:32
+2025/04/06 11:38:653806 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:653809 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:653815 INFO  TcpConnection::handleClose fd=114state=2 - TcpConnection.cc:241
+2025/04/06 11:38:653818 INFO  func =>fd114events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:653822 INFO  HTTP Connection DOWN :127.0.0.1:54414 - main.cc:109
+2025/04/06 11:38:653826 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#105 - TcpServer.cc:114
+2025/04/06 11:38:653834 INFO  removeChannel fd=114 - EPollPoller.cc:102
+2025/04/06 11:38:653838 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#105]at fd=114state=0 - TcpConnection.cc:58
+2025/04/06 11:38:653916 INFO  fd total count:7 - EPollPoller.cc:32
+2025/04/06 11:38:654207 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:654216 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654224 INFO  TcpConnection::handleClose fd=115state=2 - TcpConnection.cc:241
+2025/04/06 11:38:654227 INFO  func =>fd115events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:654232 INFO  HTTP Connection DOWN :127.0.0.1:54420 - main.cc:109
+2025/04/06 11:38:654238 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#106 - TcpServer.cc:114
+2025/04/06 11:38:654248 INFO  removeChannel fd=115 - EPollPoller.cc:102
+2025/04/06 11:38:654252 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#106]at fd=115state=0 - TcpConnection.cc:58
+2025/04/06 11:38:654273 INFO  fd total count:6 - EPollPoller.cc:32
+2025/04/06 11:38:654279 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:654282 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654288 INFO  TcpConnection::handleClose fd=116state=2 - TcpConnection.cc:241
+2025/04/06 11:38:654291 INFO  func =>fd116events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:654295 INFO  HTTP Connection DOWN :127.0.0.1:54436 - main.cc:109
+2025/04/06 11:38:654300 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#107 - TcpServer.cc:114
+2025/04/06 11:38:654308 INFO  removeChannel fd=116 - EPollPoller.cc:102
+2025/04/06 11:38:654312 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#107]at fd=116state=0 - TcpConnection.cc:58
+2025/04/06 11:38:654329 INFO  fd total count:5 - EPollPoller.cc:32
+2025/04/06 11:38:654334 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 11:38:654337 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 11:38:654343 INFO  TcpConnection::handleClose fd=117state=2 - TcpConnection.cc:241
+2025/04/06 11:38:654346 INFO  func =>fd117events=0index=1 - EPollPoller.cc:66
+2025/04/06 11:38:654350 INFO  HTTP Connection DOWN :127.0.0.1:54442 - main.cc:109
+2025/04/06 11:38:654355 INFO  TcpServer::removeConnectionInLoop [HttpServer] - connection %sHttpServer-127.0.0.1:8080#108 - TcpServer.cc:114
+2025/04/06 11:38:654363 INFO  removeChannel fd=117 - EPollPoller.cc:102
+2025/04/06 11:38:654367 INFO  TcpConnection::dtor[HttpServer-127.0.0.1:8080#108]at fd=117state=0 - TcpConnection.cc:58
+2025/04/06 11:38:654420 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:38:984636 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:984676 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:997333 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:997345 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:997356 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:997362 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:659498 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:659533 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:38:994388 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:994421 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:004354 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:004378 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:007355 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:007377 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:669737 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:669776 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:38:999034 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:999072 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:007695 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:007713 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:011128 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:011145 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:680157 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:680197 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:38:009600 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:009661 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:014584 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:014625 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:021217 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:021232 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:687383 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:687453 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:38:019985 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:020016 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:021072 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:021085 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:38:031635 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:38:031673 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:697814 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:697853 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:39:020701 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:020740 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:031574 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:031613 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:042131 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:042174 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:703510 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:703546 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:39:021376 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:021478 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:042120 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:042159 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:052265 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:052311 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:711207 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:711248 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:39:023580 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:023622 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:048645 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:048682 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:055776 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:055808 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:711514 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:711551 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:39:034025 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:034084 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:049416 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:049453 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:056694 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:056732 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:721591 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:721630 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:39:041043 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:041077 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:049582 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:049633 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:064837 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:064889 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:726144 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:726182 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:39:050078 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:050110 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:051028 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:051043 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:39:071084 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:39:071121 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:727172 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:727211 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:40:051916 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:051954 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:060516 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:060530 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:074510 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:074543 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:737489 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:737531 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:40:059411 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:059461 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:067915 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:067949 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:079923 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:079962 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:739070 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:739107 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:40:063323 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:063363 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:075202 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:075272 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:088258 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:088290 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:749329 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:749407 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 11:40:064545 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:064583 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:085493 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:085515 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 11:40:089487 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 11:40:089520 INFO  fd total count:1 - EPollPoller.cc:32

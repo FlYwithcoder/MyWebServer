@@ -1,0 +1,52 @@
+2025/04/06 15:40:035594 DEBUG EventLoop createdtruein thread190708 - EventLoop.cc:53
+2025/04/06 15:40:035693 INFO  func =>fd4events=3index=-1 - EPollPoller.cc:66
+2025/04/06 15:40:036084 DEBUG EventLoop createdtruein thread190710 - EventLoop.cc:53
+2025/04/06 15:40:036097 INFO  func =>fd8events=3index=-1 - EPollPoller.cc:66
+2025/04/06 15:40:036132 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 15:40:036140 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:036362 DEBUG EventLoop createdtruein thread190711 - EventLoop.cc:53
+2025/04/06 15:40:036373 INFO  func =>fd10events=3index=-1 - EPollPoller.cc:66
+2025/04/06 15:40:036395 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 15:40:036401 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:036560 DEBUG EventLoop createdtruein thread190712 - EventLoop.cc:53
+2025/04/06 15:40:036572 INFO  func =>fd12events=3index=-1 - EPollPoller.cc:66
+2025/04/06 15:40:036594 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 15:40:036600 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:036695 INFO  func =>fd6events=3index=-1 - EPollPoller.cc:66
+2025/04/06 15:40:036785 INFO  EventLoop start looping - EventLoop.cc:82
+2025/04/06 15:40:036792 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 15:40:046617 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:046626 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:046708 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:046636 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:046708 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:046741 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:047081 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:047097 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 15:40:047078 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:047118 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:055175 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:055213 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:055220 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:055233 INFO  fd total count:2 - EPollPoller.cc:32
+2025/04/06 15:40:057240 DEBUG timeout! - EPollPoller.cc:49
+2025/04/06 15:40:057283 INFO  fd total count:1 - EPollPoller.cc:32
+2025/04/06 15:40:386783 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 15:40:386834 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 15:40:386911 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 15:40:386921 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#1]from %s127.0.0.1:49106 - TcpServer.cc:75
+2025/04/06 15:40:386975 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#1]at fd=13 - TcpConnection.cc:52
+2025/04/06 15:40:387054 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/04/06 15:40:387067 INFO  HTTP Connection UP :127.0.0.1:49106 - main.cc:107
+2025/04/06 15:40:387079 INFO  fd total count:3 - EPollPoller.cc:32
+2025/04/06 15:40:387400 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 15:40:387413 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 15:40:387428 ERROR EventLoopThreadPool::getNextLoop ERROR - EventLoopThreadPool.cc:43
+2025/04/06 15:40:387432 INFO  TcpServer::newConnection [HttpServer]- new connection [HttpServer-127.0.0.1:8080#2]from %s127.0.0.1:49122 - TcpServer.cc:75
+2025/04/06 15:40:387441 INFO  TcpConnection::ctor:[HttpServer-127.0.0.1:8080#2]at fd=14 - TcpConnection.cc:52
+2025/04/06 15:40:387458 INFO  func =>fd14events=3index=-1 - EPollPoller.cc:66
+2025/04/06 15:40:387466 INFO  HTTP Connection UP :127.0.0.1:49122 - main.cc:107
+2025/04/06 15:40:387473 INFO  fd total count:4 - EPollPoller.cc:32
+2025/04/06 15:40:387476 INFO  events happend1 - EPollPoller.cc:40
+2025/04/06 15:40:387483 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/04/06 15:40:387633 INFO  fd total count:4 - EPollPoller.cc:32
