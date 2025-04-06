@@ -77,7 +77,7 @@ sudo apt-get install -y wget cmake build-essential unzip git
 
 ```bash
   cd ./scripts/
-sh build.sh
+  sh build.sh
 ```
 
 3. 在构建完成后，先进入到bin文件
@@ -92,7 +92,7 @@ cd bin
 ./main 
 ```
 
-**注意**：需要再另外开一个新窗口运行`nc 127.0.0.1 8080`启动我们的客户端，来链接main可执行程序启动的web服务器
+**注意**：需要再另外开一个新窗口运行`curl -v 127.0.0.1:8080/index.html`启动我们的客户端，来链接main可执行程序启动的web服务器
 
 ## 运行结果
 通过运行项目中bin文件下可执行程序main，会出现如下结果：
