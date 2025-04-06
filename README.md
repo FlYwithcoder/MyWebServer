@@ -22,6 +22,7 @@ MyWebserver/
 │ ├── main.cpp # 主程序入口
 │ ├── ... # 其他源文件 
 |
+|── scripts/ # 脚本目录
 ├── CMakeLists.txt # CMake 构建文件
 └── README.md # 项目说明文件
 ```
