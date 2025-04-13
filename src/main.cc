@@ -210,7 +210,6 @@ private:
     EventLoop *loop_;
 };
 
-// 其他保持不变...
 
 AsyncLogging* g_asyncLog = NULL;
 AsyncLogging * getAsyncLog(){
