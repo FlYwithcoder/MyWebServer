@@ -10,6 +10,7 @@
 #include <sstream>
 #include <sys/stat.h>
 #include <chrono>
+#include <random>
 
 const std::string STATIC_ROOT = "./resources/";
 
@@ -233,4 +234,111 @@ class HttpServer {
         EventLoop *loop_;
     };
 
+// 传入线程数和请求数进行内存池性能测试
+void testMemoryPoolPerformance(int threadCount, int testRequests) {
+    // 不使用内存池的测试
+    HttpRequest::enableMemoryPool(false);
+    auto start1 = std::chrono::high_resolution_clock::now();
+    std::vector<HttpRequest*> requests1;
+    requests1.reserve(testRequests);
     
+    for (int i = 0; i < testRequests; ++i) {
+        requests1.push_back(new HttpRequest());
+    }
+    for (auto req : requests1) {
+        delete req;
+    }
+    auto end1 = std::chrono::high_resolution_clock::now();
+    auto duration1 = std::chrono::duration_cast<std::chrono::milliseconds>(end1 - start1);
+    
+    // 使用内存池的测试
+    HttpRequest::enableMemoryPool(true);
+    auto start2 = std::chrono::high_resolution_clock::now();
+    std::vector<HttpRequest*> requests2;
+    requests2.reserve(testRequests);
+    
+    for (int i = 0; i < testRequests; ++i) {
+        requests2.push_back(new HttpRequest());
+    }
+    for (auto req : requests2) {
+        delete req;
+    }
+    auto end2 = std::chrono::high_resolution_clock::now();
+    auto duration2 = std::chrono::duration_cast<std::chrono::milliseconds>(end2 - start2);
+    
+    std::cout << "Performance Test Results (with " << testRequests << " requests):" << std::endl;
+    std::cout << "Without Memory Pool: " << duration1.count() << "ms" << std::endl;
+    std::cout << "With Memory Pool: " << duration2.count() << "ms" << std::endl;
+    std::cout << "Performance improvement: " 
+              << (duration1.count() - duration2.count()) * 100.0 / duration1.count() 
+              << "%" << std::endl;
+
+    // 多线程测试内存池性能
+    const int requestsPerThread = testRequests / threadCount;
+
+    auto threadTest = [](bool useMemoryPool, int requests) {
+        HttpRequest::enableMemoryPool(useMemoryPool);
+        std::vector<std::pair<void*, size_t>> allocations;
+        allocations.reserve(requests);
+        std::random_device rd;
+        std::mt19937 gen(rd());
+        std::uniform_int_distribution<> sizeDist(8, 256);
+
+        for (int i = 0; i < requests; ++i) {
+            size_t size = sizeDist(gen);
+            void* ptr = useMemoryPool ? Kama_memoryPool::MemoryPool::allocate(size) : new char[size];
+            allocations.emplace_back(ptr, size);
+
+            // 随机释放部分内存
+            if (rand() % 4 == 0 && !allocations.empty()) {
+                size_t index = rand() % allocations.size();
+                if (useMemoryPool) {
+                    Kama_memoryPool::MemoryPool::deallocate(allocations[index].first, allocations[index].second);
+                } else {
+                    delete[] static_cast<char*>(allocations[index].first);
+                }
+                allocations.erase(allocations.begin() + index);
+            }
+        }
+
+        // 清理剩余内存
+        for (const auto& alloc : allocations) {
+            if (useMemoryPool) {
+                Kama_memoryPool::MemoryPool::deallocate(alloc.first, alloc.second);
+            } else {
+                delete[] static_cast<char*>(alloc.first);
+            }
+        }
+    };
+
+    // 不使用内存池的多线程测试
+    auto start3 = std::chrono::high_resolution_clock::now();
+    std::vector<std::thread> threads1;
+    for (int i = 0; i < threadCount; ++i) {
+        threads1.emplace_back(threadTest, false, requestsPerThread);
+    }
+    for (auto& t : threads1) {
+        t.join();
+    }
+    auto end3 = std::chrono::high_resolution_clock::now();
+    auto duration3 = std::chrono::duration_cast<std::chrono::milliseconds>(end3 - start3);
+
+    // 使用内存池的多线程测试
+    auto start4 = std::chrono::high_resolution_clock::now();
+    std::vector<std::thread> threads2;
+    for (int i = 0; i < threadCount; ++i) {
+        threads2.emplace_back(threadTest, true, requestsPerThread);
+    }
+    for (auto& t : threads2) {
+        t.join();
+    }
+    auto end4 = std::chrono::high_resolution_clock::now();
+    auto duration4 = std::chrono::duration_cast<std::chrono::milliseconds>(end4 - start4);
+
+    std::cout << "Multi-threaded Performance Test Results (with " << testRequests << " requests):" << std::endl;
+    std::cout << "Without Memory Pool: " << duration3.count() << "ms" << std::endl;
+    std::cout << "With Memory Pool: " << duration4.count() << "ms" << std::endl;
+    std::cout << "Performance improvement: " 
+              << (duration3.count() - duration4.count()) * 100.0 / duration3.count() 
+              << "%" << std::endl;
+}   
