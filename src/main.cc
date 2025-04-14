@@ -11,6 +11,9 @@
 #include <sys/stat.h>
 #include <chrono>
 #include "HttpServer.h"
+#include <thread>
+#include <vector>
+#include <random>
 
 static const off_t kRollSize = 1*1024*1024;
 
@@ -56,47 +59,13 @@ int main(int argc,char *argv[]) {
 
 #ifdef MEM_POOL_TEST
     // 测试内存池性能
-    const int TEST_REQUESTS = 1000000;  // 增加测试次数以获得更明显的效果
-    
-    // 不使用内存池的测试
-    HttpRequest::enableMemoryPool(false);
-    auto start1 = std::chrono::high_resolution_clock::now();
-    std::vector<HttpRequest*> requests1;
-    requests1.reserve(TEST_REQUESTS);
-    
-    for (int i = 0; i < TEST_REQUESTS; ++i) {
-        requests1.push_back(new HttpRequest());
-    }
-    for (auto req : requests1) {
-        delete req;
-    }
-    auto end1 = std::chrono::high_resolution_clock::now();
-    auto duration1 = std::chrono::duration_cast<std::chrono::milliseconds>(end1 - start1);
-    
-    // 使用内存池的测试
-    HttpRequest::enableMemoryPool(true);
-    auto start2 = std::chrono::high_resolution_clock::now();
-    std::vector<HttpRequest*> requests2;
-    requests2.reserve(TEST_REQUESTS);
-    
-    for (int i = 0; i < TEST_REQUESTS; ++i) {
-        requests2.push_back(new HttpRequest());
-    }
-    for (auto req : requests2) {
-        delete req;
-    }
-    auto end2 = std::chrono::high_resolution_clock::now();
-    auto duration2 = std::chrono::duration_cast<std::chrono::milliseconds>(end2 - start2);
-    
-    std::cout << "Performance Test Results (with " << TEST_REQUESTS << " requests):" << std::endl;
-    std::cout << "Without Memory Pool: " << duration1.count() << "ms" << std::endl;
-    std::cout << "With Memory Pool: " << duration2.count() << "ms" << std::endl;
-    std::cout << "Performance improvement: " 
-              << (duration1.count() - duration2.count()) * 100.0 / duration1.count() 
-              << "%" << std::endl;
+    int threadCount = 4;      // 线程数
+    int testRequests = 1000000; // 请求数
+    testMemoryPoolPerformance(threadCount, testRequests);
+
 #endif
         
-    // 启用内存池用于实际服务
+    // 启用内存池
     HttpRequest::enableMemoryPool(true);
 
     // 初始化缓存
