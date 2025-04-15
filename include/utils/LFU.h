@@ -53,14 +53,20 @@ public:
     }
 
     // 提那家结点管理方法
+    // 添加节点
     void addNode(NodePtr node) 
     {
+        // 如果节点为空或者头节点为空或者尾节点为空，则直接返回
         if (!node || !head_ || !tail_) 
             return;
 
+        // 将新节点的pre指针指向尾节点的前一个节点
         node->pre = tail_->pre;
+        // 将新节点的next指针指向尾节点
         node->next = tail_;
+        // 将尾节点的前一个节点的next指针指向新节点
         tail_->pre->next = node;
+        // 将尾节点的pre指针指向新节点
         tail_->pre = node;
     }
 
