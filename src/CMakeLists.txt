@@ -4,6 +4,10 @@ list(REMOVE_ITEM SRC_FILE ${CMAKE_CURRENT_SOURCE_DIR}/main.cc)
 
 #创建可执行文件
 add_executable(main  main.cc)
+add_executable(memory_pool_test
+	memory/memory_pool_test.cc
+	memory/lfu_memory_pool.cc
+)
 
 #链接必要的库
 target_link_libraries(main utils_lib thread_lib net_lib memory_lib log_lib eventloop_lib ${LIBS})
