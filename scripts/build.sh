@@ -9,4 +9,3 @@ cmake .. -DMEM_POOL_TEST=1
 #if not run mem_pool_test
 # cmake ..
 make
-cd bin/
