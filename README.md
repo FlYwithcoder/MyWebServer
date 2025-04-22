@@ -113,7 +113,7 @@ cd bin
 - 内存池提升测试
   ![img](./img/4.png)
 
-- 内存池加入LFU测试
-  ![img](./img/5.png)
+- LFU缓存策略测试
+  ![img](./img/6.png)
 ---
 
