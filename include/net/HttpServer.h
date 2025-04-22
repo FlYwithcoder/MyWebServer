@@ -11,6 +11,7 @@
 #include <sys/stat.h>
 #include <chrono>
 #include <random>
+#include "ResourceCache.h"
 
 const std::string STATIC_ROOT = "./resources/";
 
@@ -103,7 +104,7 @@ private:
 class HttpServer {
     public:
         HttpServer(EventLoop *loop, const InetAddress &addr, const std::string &name)
-            : server_(loop, addr, name), loop_(loop) {
+            : server_(loop, addr, name), loop_(loop), use_resource_cache_(false) {
             server_.setConnectionCallback(
                 std::bind(&HttpServer::onConnection, this, std::placeholders::_1));
             server_.setMessageCallback(
@@ -113,6 +114,29 @@ class HttpServer {
         }
     
         void start() { server_.start(); }
+        
+        // 启用/禁用资源缓存
+        void enableResourceCache(bool enable) {
+            use_resource_cache_ = enable;
+            ResourceCache::getInstance().enable(enable);
+        }
+        
+        // 获取缓存统计信息
+        std::string getCacheStats() {
+            std::ostringstream oss;
+            auto& cache = ResourceCache::getInstance();
+            
+            oss << "Resource Cache Statistics:" << std::endl;
+            oss << "Enabled: " << (use_resource_cache_ ? "Yes" : "No") << std::endl;
+            oss << "Cache Size: " << cache.getCacheSize() / 1024 << " KB / " 
+                << cache.getMaxCacheSize() / 1024 << " KB (Maximum)" << std::endl;
+            oss << "Cache Entries: " << cache.getCacheEntryCount() << std::endl;
+            oss << "Total Requests: " << cache.getTotalRequests() << std::endl;
+            oss << "Cache Hits: " << cache.getHitCount() << std::endl;
+            oss << "Hit Rate: " << (cache.getHitRate() * 100) << "%" << std::endl;
+            
+            return oss.str();
+        }
     
     private:
         void onConnection(const TcpConnectionPtr &conn) {
@@ -156,27 +180,51 @@ class HttpServer {
     
         void serveFile(const TcpConnectionPtr &conn, const HttpRequest& req, const std::string& path) {
             std::string fullPath = STATIC_ROOT + path;
-            std::ifstream file(fullPath, std::ios::binary);
+            std::string content;
+            std::string contentType = getContentType(path);
+            auto startTime = std::chrono::high_resolution_clock::now();
+            bool loadFromCache = false;
             
-            if (!file) {
-                sendError(conn, req, 404, "Not Found");
-                return;
+            // 尝试从缓存加载
+            if (use_resource_cache_ && ResourceCache::getInstance().getResource(fullPath, content, contentType)) {
+                loadFromCache = true;
+            } else {
+                // 从文件系统加载
+                std::ifstream file(fullPath, std::ios::binary);
+                
+                if (!file) {
+                    sendError(conn, req, 404, "Not Found");
+                    return;
+                }
+        
+                file.seekg(0, std::ios::end);
+                size_t size = file.tellg();
+                file.seekg(0, std::ios::beg);
+        
+                content.resize(size);
+                file.read(&content[0], size);
+                
+                // 添加到缓存
+                if (use_resource_cache_) {
+                    ResourceCache::getInstance().addResource(fullPath, content, contentType);
+                }
             }
-    
-            file.seekg(0, std::ios::end);
-            size_t size = file.tellg();
-            file.seekg(0, std::ios::beg);
-    
-            std::string content(size, '\0');
-            file.read(&content[0], size);
+            
+            auto endTime = std::chrono::high_resolution_clock::now();
+            auto duration = std::chrono::duration_cast<std::chrono::microseconds>(endTime - startTime);
+            
+            LOG_INFO << "Resource " << path << " loaded in " << duration.count() 
+                    << " microseconds, from " << (loadFromCache ? "cache" : "file system");
     
             std::string response = "HTTP/1.1 200 OK\r\n";
-            response += "Content-Type: " + getContentType(path) + "\r\n";
-            response += "Content-Length: " + std::to_string(size) + "\r\n";
+            response += "Content-Type: " + contentType + "\r\n";
+            response += "Content-Length: " + std::to_string(content.size()) + "\r\n";
             
             // 根据请求决定Connection头
             bool close = shouldCloseConnection(req);
             response += close ? "Connection: close\r\n" : "Connection: keep-alive\r\n";
+            response += "X-Resource-From: " + std::string(loadFromCache ? "cache" : "file") + "\r\n";
+            response += "X-Load-Time: " + std::to_string(duration.count()) + " microseconds\r\n";
             response += "\r\n";
             response += content;
     
@@ -187,6 +235,68 @@ class HttpServer {
         void handleRequest(const TcpConnectionPtr &conn, const HttpRequest& req) {
             if (req.getPath().find("..") != std::string::npos) {
                 sendError(conn, req, 403, "Forbidden");
+                return;
+            }
+            
+            // 添加缓存统计API
+            if (req.getPath() == "/cache-stats") {
+                std::string stats = getCacheStats();
+                std::string response = "HTTP/1.1 200 OK\r\n";
+                response += "Content-Type: text/plain\r\n";
+                response += "Content-Length: " + std::to_string(stats.size()) + "\r\n";
+                response += "\r\n";
+                response += stats;
+                conn->send(response);
+                return;
+            }
+            
+            // 添加资源访问统计API
+            if (req.getPath() == "/resource-stats") {
+                std::string stats = ResourceCache::getInstance().getResourceStats();
+                std::string response = "HTTP/1.1 200 OK\r\n";
+                response += "Content-Type: text/plain; charset=utf-8\r\n";
+                response += "Content-Length: " + std::to_string(stats.size()) + "\r\n";
+                response += "\r\n";
+                response += stats;
+                conn->send(response);
+                return;
+            }
+            
+            // 添加切换缓存API
+            if (req.getPath() == "/toggle-cache") {
+                use_resource_cache_ = !use_resource_cache_;
+                ResourceCache::getInstance().enable(use_resource_cache_);
+                
+                std::string message = "Resource cache is now " + 
+                    std::string(use_resource_cache_ ? "enabled" : "disabled");
+                
+                std::string response = "HTTP/1.1 200 OK\r\n";
+                response += "Content-Type: text/plain\r\n";
+                response += "Content-Length: " + std::to_string(message.size()) + "\r\n";
+                response += "\r\n";
+                response += message;
+                conn->send(response);
+                return;
+            }
+            
+            // 添加设置缓存大小API
+            if (req.getPath().find("/set-cache-size/") == 0) {
+                std::string sizeStr = req.getPath().substr(16); // 去掉"/set-cache-size/"前缀
+                try {
+                    size_t sizeMB = std::stoul(sizeStr);
+                    size_t sizeBytes = sizeMB * 1024 * 1024;
+                    ResourceCache::getInstance().setCacheSize(sizeBytes);
+                    
+                    std::string message = "Cache size set to " + std::to_string(sizeMB) + " MB";
+                    std::string response = "HTTP/1.1 200 OK\r\n";
+                    response += "Content-Type: text/plain\r\n";
+                    response += "Content-Length: " + std::to_string(message.size()) + "\r\n";
+                    response += "\r\n";
+                    response += message;
+                    conn->send(response);
+                } catch (const std::exception& e) {
+                    sendError(conn, req, 400, "Invalid size value");
+                }
                 return;
             }
     
@@ -232,6 +342,7 @@ class HttpServer {
     
         TcpServer server_;
         EventLoop *loop_;
+        bool use_resource_cache_;  // 是否使用资源缓存
     };
 
 // 传入线程数和请求数进行内存池性能测试
