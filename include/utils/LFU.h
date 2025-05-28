@@ -137,6 +137,17 @@ public:
       return false;
     }
 
+    size_t getSize() const
+    {
+        std::lock_guard<std::mutex> lock(mutex_);
+        return nodeMap_.size();
+    }
+    
+    // 获取缓存中的所有项目
+    const NodeMap& getItems() const
+    {
+        return nodeMap_;
+    }
     Value get(Key key) override
     {
       Value value;
@@ -171,7 +182,7 @@ private:
     int                                            maxAverageNum_; // 最大平均访问频次
     int                                            curAverageNum_; // 当前平均访问频次
     int                                            curTotalNum_; // 当前访问所有缓存次数总数 
-    std::mutex                                     mutex_; // 互斥锁
+    mutable std::mutex                             mutex_; // 互斥锁
     NodeMap                                        nodeMap_; // key 到 缓存节点的映射
     std::unordered_map<int, FreqList<Key, Value>*> freqToFreqList_;// 访问频次到该频次链表的映射
 };
